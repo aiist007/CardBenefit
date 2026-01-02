@@ -1539,18 +1539,6 @@
     "id": "d3c2779c-e6ac-4bba-bd0b-d3b64c70401c"
   },
   {
-    "title": "TSA PreCheck / Global Entry 报销",
-    "bank": "汇丰美国",
-    "cardName": "汇丰美国卓越理财尊尚信用卡 (World Elite)",
-    "category": "Travel",
-    "description": "每 4.5 年提供高达 $100 的申请费报销。",
-    "validity": "每4.5年",
-    "value": "100美元",
-    "usageCondition": "支付申请费",
-    "terms": null,
-    "id": "df843d2c-02cb-4ab3-889f-66d685a36457"
-  },
-  {
     "title": "EveryMile 联动里程兑换",
     "bank": "汇丰香港",
     "cardName": "汇丰香港 EveryMile 信用卡",
