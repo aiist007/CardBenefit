@@ -1203,18 +1203,6 @@
     "id": "faa9ce12-e366-408e-b4ce-c191811112db"
   },
   {
-    "title": "特定渠道10%返现",
-    "bank": "广发",
-    "cardName": "广发龙霸天信用卡",
-    "category": "Shopping",
-    "description": "美团、抖音、得物、喜茶、星巴克、麦当劳消费返现10%。微信/支付宝/云闪付消费10000返100元。",
-    "validity": "每月",
-    "value": "100",
-    "usageCondition": "指定商户消费",
-    "terms": "月上限100元",
-    "id": "625a5b43-0c34-4ce8-a4ad-3acde4e8e775"
-  },
-  {
     "title": "鼎级白金卡里程兑换",
     "bank": "广发",
     "cardName": "广发鼎级白金信用卡",
