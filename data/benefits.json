@@ -1021,17 +1021,5 @@
     "usageCondition": "通过“美国运通卡礼遇”小程序查询参与商户并使用",
     "terms": "美国运通“SELECT”级别卡片专属权益",
     "id": "0980fb06-16e3-4f75-b0f5-500d9f68de4f"
-  },
-  {
-    "title": "境外消费返现",
-    "bank": "平安",
-    "cardName": "平安银行瑞幸联名信用卡",
-    "category": "Shopping",
-    "description": "在境外（含港澳台地区）消费，可享笔笔1%返现。",
-    "validity": "",
-    "value": "1%返现",
-    "usageCondition": "境外消费",
-    "terms": "每月返现上限为365元人民币，无需报名。",
-    "id": "3c11660c-b355-4031-9605-89b11627fbb6"
   }
 ]
