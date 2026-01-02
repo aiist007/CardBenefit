@@ -407,17 +407,5 @@
     "usageCondition": "停车支付时使用",
     "terms": "保留权益",
     "id": "fc18dff3-af5f-4e7e-bdd4-8af0e9be6fe0"
-  },
-  {
-    "title": "道路救援服务",
-    "bank": "农行",
-    "cardName": "农行车主卡畅享版",
-    "category": "Vehicle",
-    "description": "提供道路救援保障服务。",
-    "validity": "2026年第一季度起",
-    "value": "道路救援",
-    "usageCondition": "车辆发生故障时",
-    "terms": "保留权益",
-    "id": "6629db88-78dc-4b1c-9272-eb966ca809f6"
   }
 ]
