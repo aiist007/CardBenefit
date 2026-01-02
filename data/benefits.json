@@ -719,17 +719,5 @@
     "usageCondition": "预订指定酒店且至少入住2晚",
     "terms": "需使用特定房价代码预订，额度仅限店内合规消费抵扣",
     "id": "54b58994-9755-4b34-a3bc-5945123eef80"
-  },
-  {
-    "title": "消费积分奖励",
-    "bank": "AMEX HK",
-    "cardName": "Hilton Aspire",
-    "category": "Travel",
-    "description": "在希尔顿旗下酒店消费可获得14倍积分；在旅游（通过航司或Amex Travel预订机票/租车）及美国餐厅消费可获得7倍积分；其他合规消费可获得3倍积分。",
-    "validity": "长期有效",
-    "value": "最高14倍积分",
-    "usageCondition": "使用Hilton Aspire卡进行消费",
-    "terms": "积分累积及兑换需遵循希尔顿荣誉客会及美国运通相关条款",
-    "id": "5f75aaba-cc4f-42a7-b356-d3506ca5a554"
   }
 ]
