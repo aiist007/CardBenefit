@@ -457,18 +457,6 @@
     "id": "ceb2fb12-6efb-414c-9042-e16b565e13aa"
   },
   {
-    "title": "免境外交易手续费",
-    "bank": "Chase",
-    "cardName": "Chase Ritz-Carlton",
-    "category": "Travel",
-    "description": "在海外进行外币消费时，不收取任何境外交易手续费。",
-    "validity": "长期有效",
-    "value": null,
-    "usageCondition": "境外刷卡消费",
-    "terms": null,
-    "id": "10505c52-47dc-4bd9-8fd9-cdb1334bf2e0"
-  },
-  {
     "title": "无标题权益",
     "bank": "其他银行",
     "cardName": "通用",
