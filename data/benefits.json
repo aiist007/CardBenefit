@@ -1443,18 +1443,6 @@
     "id": "352d67f0-7e5b-4886-bde9-df50f466e119"
   },
   {
-    "title": "奖赏钱账单抵扣",
-    "bank": "汇丰",
-    "cardName": "汇丰 Red 信用卡",
-    "category": "Shopping",
-    "description": "通过 HSBC Reward+ App 使用奖赏钱抵扣账单金额。",
-    "validity": "",
-    "value": "1 RC = HK$1",
-    "usageCondition": "使用 HSBC Reward+ App",
-    "terms": "",
-    "id": "a9bba744-ee8f-42a9-92e8-efc7c4c6998e"
-  },
-  {
     "title": "奖赏钱兑换里程",
     "bank": "汇丰",
     "cardName": "汇丰 Red 信用卡",
