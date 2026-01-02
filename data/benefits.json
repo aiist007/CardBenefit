@@ -457,18 +457,6 @@
     "id": "ceb2fb12-6efb-414c-9042-e16b565e13aa"
   },
   {
-    "title": "Chase Travel 消费返点",
-    "bank": "Chase",
-    "cardName": "Chase Sapphire Reserve 信用卡",
-    "category": "Travel",
-    "description": "通过 Chase Travel 预定机票、酒店、租车、活动可获 8x 积分；官网直定机票酒店 4x；其他 1x。",
-    "validity": "长期有效",
-    "value": "最高8x积分",
-    "usageCondition": "通过指定平台消费",
-    "terms": "积分价值约 1.6 cent/points",
-    "id": "31578cfe-459e-48e9-bfaa-ae6fa231755a"
-  },
-  {
     "title": "酒店报销",
     "bank": "Citi",
     "cardName": "Citi Strata Premier 信用卡",
