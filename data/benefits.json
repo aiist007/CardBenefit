@@ -141,7 +141,8 @@
     "value": "2次/年",
     "usageCondition": "提前预约使用",
     "terms": "覆盖全国主要城市",
-    "id": "86058f30-5a7f-425b-921e-c1867492cb33"
+    "id": "86058f30-5a7f-425b-921e-c1867492cb33",
+    "isCompleted": true
   },
   {
     "title": "代驾服务",
