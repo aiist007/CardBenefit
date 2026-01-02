@@ -407,17 +407,5 @@
     "usageCondition": "不需要消费即可直接参与。",
     "terms": "每月限2次。",
     "id": "ca73f7fd-fe9c-4ef0-b9f7-c09b1405ad54"
-  },
-  {
-    "title": "钻石卡加油满减 (200-100)",
-    "bank": "民生",
-    "cardName": "招行钻石卡",
-    "category": "Vehicle",
-    "description": "民生车车钻石卡持卡人每月可享受5次200-100加油优惠。",
-    "validity": "2026-01-01至2026-12-31",
-    "value": "100元加油金",
-    "usageCondition": "不需要消费即可直接参与。",
-    "terms": "每月限5次。",
-    "id": "8d3ad610-fa5c-47fd-93d1-6efa743a2a28"
   }
 ]
