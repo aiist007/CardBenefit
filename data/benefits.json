@@ -231,42 +231,6 @@
     "id": "2d0bd3f7-c2fa-4619-a4f0-e132d5ba94d3"
   },
   {
-    "title": "全球机场/高铁贵宾厅",
-    "bank": "浦发",
-    "cardName": "华夏银行美国运通 Safari 信用卡",
-    "category": "Travel",
-    "description": "每月消费3笔，次月月底得1龙腾，年限12点。",
-    "validity": "2026年",
-    "value": "12点龙腾",
-    "usageCondition": "每月消费满3笔。",
-    "terms": "次月月底发放。",
-    "id": "268b8e83-d8b7-472b-a026-c368996ab89d"
-  },
-  {
-    "title": "机场/高铁接送",
-    "bank": "浦发",
-    "cardName": "华夏银行美国运通 Safari 信用卡",
-    "category": "Travel",
-    "description": "每月消费3笔，次月月底得1次，年限3次。",
-    "validity": "2026年",
-    "value": "270",
-    "usageCondition": "每月消费满3笔。",
-    "terms": "次月月底发放，年限3次。",
-    "id": "1816f9b0-e2b3-426d-99c8-48d80f9b3857"
-  },
-  {
-    "title": "延误险",
-    "bank": "浦发",
-    "cardName": "华夏银行美国运通 Safari 信用卡",
-    "category": "Insurance",
-    "description": "6个月内延误2小时最高赔付1500元机票款。",
-    "validity": "2026年",
-    "value": "1500元机票款",
-    "usageCondition": "延误2小时以上。",
-    "terms": "连续3个月限1次，最多2次。",
-    "id": "61d32475-5f31-4bd3-a93f-b8a31241db33"
-  },
-  {
     "title": "抢500元刷卡金",
     "bank": "浦发",
     "cardName": "华夏银行美国运通 Safari 信用卡",
@@ -277,18 +241,6 @@
     "usageCondition": "每月消费满2000元且包含500元机票消费。",
     "terms": "每月限1次，每月限额500名。",
     "id": "d8e053e5-9852-436f-8c62-2654ef885e04"
-  },
-  {
-    "title": "年费优惠返现",
-    "bank": "浦发",
-    "cardName": "华夏银行美国运通 Safari 信用卡",
-    "category": "AnnualFee",
-    "description": "每月微信支付消费3笔168元或月累计消费达9999元，每月返125元，12个月总计返1500元年费。",
-    "validity": "12个月",
-    "value": "1500元返现",
-    "usageCondition": "每月微信支付3笔168元或月累计消费达9999元。",
-    "terms": "每月返还125元。",
-    "id": "05344564-5bf5-4357-8954-fae367234095"
   },
   {
     "title": "停车优惠",
@@ -913,42 +865,6 @@
     "usageCondition": "配合“最红自主奖赏”及4.4%回赠率计算。",
     "terms": "",
     "id": "fc9a6344-a0dd-4035-bdf2-0f814a111dce"
-  },
-  {
-    "title": "机场贵宾厅服务",
-    "bank": "浦发",
-    "cardName": "浦发银行美国运通超白金信用卡",
-    "category": "Travel",
-    "description": "提供机场贵宾厅使用权益。",
-    "validity": "",
-    "value": "无限次 + 3人次随行",
-    "usageCondition": "",
-    "terms": "",
-    "id": "dce9642f-1b51-44f1-9820-1760c7dc5dc3"
-  },
-  {
-    "title": "机场接送服务",
-    "bank": "浦发",
-    "cardName": "浦发银行美国运通超白金信用卡",
-    "category": "Travel",
-    "description": "提供境内外机场接送服务。",
-    "validity": "",
-    "value": "1点境外/2点境内",
-    "usageCondition": "",
-    "terms": "",
-    "id": "ba088542-1e90-4d0f-8d32-eab096b3fa05"
-  },
-  {
-    "title": "Safari卡年费优惠及积分兑换",
-    "bank": "华夏",
-    "cardName": "华夏银行美国运通 Safari 信用卡",
-    "category": "AnnualFee",
-    "description": "主卡3600元/年。新户首年1800元，产生后6个月内用15万积分兑换返还；老户首年1200元+5万积分抵扣。次年起可用15万积分兑换。附属卡免年费。",
-    "validity": "长期有效",
-    "value": "1800",
-    "usageCondition": "新户核卡6个月内15万积分兑换，老户5万积分抵扣部分年费",
-    "terms": "积分需为交易积分",
-    "id": "929f8a3b-166a-4904-8bf3-b6dd1a65e485"
   },
   {
     "title": "机场/高铁贵宾厅服务",
