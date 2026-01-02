@@ -1441,17 +1441,5 @@
     "usageCondition": "指定渠道消费",
     "terms": "积分可叠加鼎极卡兑换",
     "id": "16653825-cd1c-4f56-a44b-453ee2a33484"
-  },
-  {
-    "title": "Safari卡里程兑换",
-    "bank": "广发",
-    "cardName": "华夏银行美国运通 Safari 信用卡",
-    "category": "Travel",
-    "description": "25:1兑换亚万，18:1兑换南航，15:1兑换国航/东航。",
-    "validity": "长期有效",
-    "value": null,
-    "usageCondition": "积分兑换",
-    "terms": null,
-    "id": "7b82361b-f759-4d9f-a546-5ec3dc6b416a"
   }
 ]
