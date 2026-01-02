@@ -771,18 +771,6 @@
     "id": "31b57e64-662b-4ae6-a476-d1ec0f3f1812"
   },
   {
-    "title": "全量消费返现",
-    "bank": "Robinhood",
-    "cardName": "Robinhood Gold 信用卡",
-    "category": "Other",
-    "description": "所有类别的消费均可获得 3% 的现金返现。",
-    "validity": "2024-11-12更新",
-    "value": "3% 返现",
-    "usageCondition": "直接消费",
-    "terms": "必须持有 Robinhood Gold 会员（每月 $5 费用）。",
-    "id": "5445739e-3af1-4b25-9d93-e8adaba1361f"
-  },
-  {
     "title": "航空报销",
     "bank": "AMEX HK",
     "cardName": "AMEX Gold Card",
