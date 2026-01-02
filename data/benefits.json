@@ -563,17 +563,5 @@
     "usageCondition": "完成3笔且单笔满18元消费",
     "terms": "仅限新户，面价29元/张",
     "id": "547d4119-471a-4376-a213-4f6f7ea26049"
-  },
-  {
-    "title": "周周礼",
-    "bank": "平安",
-    "cardName": "瑞幸联名卡",
-    "category": "Dining",
-    "description": "每周消费达标领2张瑞幸券(面价29元/张)，一年最多领116杯。",
-    "validity": "活动期间",
-    "value": "58元/周",
-    "usageCondition": "周周5笔且单笔满18元线上消费",
-    "terms": "一年最多能领到116杯",
-    "id": "a27736f3-51d1-4e9d-a0e0-25afdfaa00bc"
   }
 ]
