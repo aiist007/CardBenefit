@@ -443,17 +443,5 @@
     "usageCondition": "车辆发生故障时",
     "terms": "保留权益",
     "id": "6629db88-78dc-4b1c-9272-eb966ca809f6"
-  },
-  {
-    "title": "指定商户10%返现",
-    "bank": "广发",
-    "cardName": "多利卡、有鱼卡、有鱼潮卡、生活+、耀红卡",
-    "category": "Shopping",
-    "description": "指定商户10%返现模式。",
-    "validity": "2025年12月31日前（2026年1月1日起停发新卡）",
-    "value": "10%返现",
-    "usageCondition": "指定商户消费",
-    "terms": "2026年1月1日起全面暂停新发卡，存量卡短期内可继续按现有规则使用",
-    "id": "bcaaceab-048d-49d7-af33-3bfe988698ac"
   }
 ]
