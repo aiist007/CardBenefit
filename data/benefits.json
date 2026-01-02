@@ -457,18 +457,6 @@
     "id": "ceb2fb12-6efb-414c-9042-e16b565e13aa"
   },
   {
-    "title": "开卡奖励",
-    "bank": "Chase",
-    "cardName": "Chase Sapphire Reserve 信用卡",
-    "category": "Other",
-    "description": "开卡前三个月消费满 $6,000 可获得 125k 积分。",
-    "validity": "开卡后3个月内",
-    "value": "125k积分",
-    "usageCondition": "三个月内消费满 $6,000",
-    "terms": null,
-    "id": "0ef3604e-206d-4968-99e2-e7624aa51a5d"
-  },
-  {
     "title": "Chase Travel 消费返点",
     "bank": "Chase",
     "cardName": "Chase Sapphire Reserve 信用卡",
