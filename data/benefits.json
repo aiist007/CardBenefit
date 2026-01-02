@@ -419,17 +419,5 @@
     "usageCondition": "不需要消费即可直接参与。",
     "terms": "每月限5次。",
     "id": "8d3ad610-fa5c-47fd-93d1-6efa743a2a28"
-  },
-  {
-    "title": "百夫长白金卡首年年费减免",
-    "bank": "民生",
-    "cardName": "招行百夫长白",
-    "category": "Other",
-    "description": "通过50万定存3个月，可获赠百夫长白金卡首年年费。",
-    "validity": "",
-    "value": "首年年费减免",
-    "usageCondition": "50万定存3个月。",
-    "terms": "仅限首年年费。",
-    "id": "0b7bf0eb-4f4c-48d8-a9aa-a10cf96929f4"
   }
 ]
