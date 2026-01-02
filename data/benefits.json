@@ -1419,18 +1419,6 @@
     "id": "02d09b97-5360-444c-93cf-49f89e36abe5"
   },
   {
-    "title": "0.4% 缴费/特定签账回赠",
-    "bank": "汇丰",
-    "cardName": "汇丰 Red 信用卡",
-    "category": "Other",
-    "description": "通过汇丰网上理财进行的特定缴费或保险扣款。",
-    "validity": "",
-    "value": "0.4%",
-    "usageCondition": "网上理财特定缴费",
-    "terms": "仅限特定签账类别。",
-    "id": "540e3af8-1a8d-4a03-a022-5659f987af69"
-  },
-  {
     "title": "永久免年费",
     "bank": "汇丰",
     "cardName": "汇丰 Red 信用卡",
