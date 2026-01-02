@@ -673,18 +673,6 @@
     "id": "3a6a9a27-8a91-403f-b899-115489535dd8"
   },
   {
-    "title": "AMEX Offer 现金奖励",
-    "bank": "AMEX HK",
-    "cardName": "AMEX Hilton Aspire",
-    "category": "Shopping",
-    "description": "AMEX 常常给持卡人发放各种消费返现 Offer，如 Amazon、沃尔玛、话费充值等。",
-    "validity": "视具体 Offer 而定",
-    "value": "现金返还/折扣",
-    "usageCondition": "在 AMEX App 或官网手动添加 Offer 并消费达标。",
-    "terms": null,
-    "id": "3871ec87-68a7-4fa3-8e56-8ef3b894e16e"
-  },
-  {
     "title": "希尔顿荣誉客会钻石会籍 (Diamond Status)",
     "bank": "AMEX HK",
     "cardName": "Hilton Aspire",
