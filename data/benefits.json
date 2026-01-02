@@ -1335,18 +1335,6 @@
     "id": "8b2a66fb-d3d4-4c21-a58d-5e02d991c1ea"
   },
   {
-    "title": "加油/充电返现",
-    "bank": "广发",
-    "cardName": "广发车主信用卡",
-    "category": "Vehicle",
-    "description": "达标可享月月最高100元加油返现，或50元充电/高速通行消费返现。",
-    "validity": "每月",
-    "value": "100",
-    "usageCondition": "消费达标",
-    "terms": "二选一",
-    "id": "7078f9c9-0b9b-43b4-8ae2-ed3055672bdc"
-  },
-  {
     "title": "车主增值服务",
     "bank": "广发",
     "cardName": "广发车主信用卡",
