@@ -1443,18 +1443,6 @@
     "id": "23d77985-0aa7-40cf-b69e-7d4d3cd57835"
   },
   {
-    "title": "年费豁免",
-    "bank": "汇丰美国",
-    "cardName": "汇丰美国卓越理财信用卡",
-    "category": "AnnualFee",
-    "description": "卓越理财客户免年费。",
-    "validity": "长期有效",
-    "value": "免年费",
-    "usageCondition": "卓越理财客户",
-    "terms": null,
-    "id": "150a3570-a39c-4d8f-b82a-13f19baf6fef"
-  },
-  {
     "title": "积分回赠",
     "bank": "汇丰美国",
     "cardName": "汇丰美国卓越理财信用卡",
