@@ -1225,17 +1225,5 @@
     "usageCondition": "适用于内地人民币消费。",
     "terms": "需配合汇丰卓越理财账户使用体验更佳。",
     "id": "7bfb53cf-8886-420a-acd8-73712e890e65"
-  },
-  {
-    "title": "境外消费10%返现",
-    "bank": "汇丰",
-    "cardName": "汇丰中国信用卡",
-    "category": "Shopping",
-    "description": "境外消费享受10%返现，最高奖励3000元。",
-    "validity": "2025",
-    "value": "3000",
-    "usageCondition": "在香港或境外地区刷卡消费。",
-    "terms": "名额及具体细则参考汇丰官方公告。",
-    "id": "24c4cd0b-fd1f-4635-a930-5613bfd2b6c7"
   }
 ]
