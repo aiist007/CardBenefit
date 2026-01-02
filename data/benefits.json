@@ -457,18 +457,6 @@
     "id": "ceb2fb12-6efb-414c-9042-e16b565e13aa"
   },
   {
-    "title": "开户奖励",
-    "bank": "US Bank",
-    "cardName": "US Bank Checking 账户",
-    "category": "Other",
-    "description": "银行账户开户奖励 $450。",
-    "validity": "限时活动",
-    "value": "450美元",
-    "usageCondition": "满足银行开户及入金要求",
-    "terms": null,
-    "id": "5a135e21-378d-4752-bda4-0028a1f0112b"
-  },
-  {
     "title": "投资开户奖励",
     "bank": "京东",
     "cardName": "Moomoo 投资平台",
