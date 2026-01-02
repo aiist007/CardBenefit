@@ -1213,17 +1213,5 @@
     "usageCondition": "每年消费满30笔。",
     "terms": "适用于早期下卡的尊然白及航司白金卡。",
     "id": "9b51f519-4765-4e9c-8ae2-db16b33ee35f"
-  },
-  {
-    "title": "Pulse卡内地消费返现",
-    "bank": "AMEX HK",
-    "cardName": "汇丰香港银联钻石Pulse信用卡",
-    "category": "Shopping",
-    "description": "在内地通过指定渠道消费享受高额返现，最高可达15.4%。",
-    "validity": "2025-2026",
-    "value": "15.4%回赠",
-    "usageCondition": "适用于内地人民币消费。",
-    "terms": "需配合汇丰卓越理财账户使用体验更佳。",
-    "id": "7bfb53cf-8886-420a-acd8-73712e890e65"
   }
 ]
