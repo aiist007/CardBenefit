@@ -575,17 +575,5 @@
     "usageCondition": "周周5笔且单笔满18元线上消费",
     "terms": "一年最多能领到116杯",
     "id": "a27736f3-51d1-4e9d-a0e0-25afdfaa00bc"
-  },
-  {
-    "title": "年费政策",
-    "bank": "平安",
-    "cardName": "瑞幸联名卡",
-    "category": "Other",
-    "description": "年费300元，新户首年免年费，消费满6笔免次年年费。",
-    "validity": "长期",
-    "value": "300",
-    "usageCondition": "新户首年免，消费满6笔免次年",
-    "terms": "非常容易达标",
-    "id": "b40ed854-c22c-4ab6-a13f-48a9c248ffd6"
   }
 ]
