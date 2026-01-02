@@ -1359,18 +1359,6 @@
     "id": "9830be1e-0da3-431c-b02c-260bd178d7b8"
   },
   {
-    "title": "云闪付支付返利",
-    "bank": "广发",
-    "cardName": "广发云闪付信用卡",
-    "category": "Shopping",
-    "description": "云闪付APP消费享3%返利，微信/支付宝支付享1%返利。",
-    "validity": "每月",
-    "value": "100",
-    "usageCondition": "单笔消费满1元",
-    "terms": "单日最高20元，单月最高100元",
-    "id": "691af954-1853-4327-8bb4-6f6298445996"
-  },
-  {
     "title": "鼎级白金卡里程兑换",
     "bank": "广发",
     "cardName": "广发鼎级白金信用卡",
