@@ -190,17 +190,5 @@
     "usageCondition": "航班延误达4小时",
     "terms": "每自然年赔付上限为2000元",
     "id": "5a80c887-1870-4a14-86a5-5510aa213420"
-  },
-  {
-    "title": "公共交通意外险",
-    "bank": "建行",
-    "cardName": "建行家庭挚爱",
-    "category": "Insurance",
-    "description": "持卡人可获航空意外险保障。",
-    "validity": "每年",
-    "value": "最高500万元保额",
-    "usageCondition": "持卡人本人",
-    "terms": null,
-    "id": "f55c08e0-1b4f-4fa3-8252-172d45dab0a6"
   }
 ]
