@@ -1121,7 +1121,7 @@
   {
     "title": "UP白金卡消费返现",
     "bank": "华夏",
-    "cardName": "UP白金卡",
+    "cardName": "白金卡",
     "category": "Shopping",
     "description": "通过微信、支付宝、云闪付线上消费返1% UP成长金。每月上限200 UP金。",
     "validity": "长期有效",
@@ -1453,17 +1453,5 @@
     "usageCondition": "积分兑换",
     "terms": null,
     "id": "7b82361b-f759-4d9f-a546-5ec3dc6b416a"
-  },
-  {
-    "title": "东航洲际联名卡双重积分",
-    "bank": "广发",
-    "cardName": "广发东航洲际联名信用卡",
-    "category": "Travel",
-    "description": "指定渠道每6元累计1点IHG积分+1点东航积分+6点广发积分。",
-    "validity": "长期有效",
-    "value": null,
-    "usageCondition": "东航及IHG指定渠道消费",
-    "terms": "兑换比例约为18:1",
-    "id": "95160b1e-c5ac-4bf8-825b-9551b2dd3755"
   }
 ]
