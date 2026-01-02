@@ -395,17 +395,5 @@
     "usageCondition": "1元支付",
     "terms": "每季度限一次",
     "id": "b1409bbc-ecec-495e-94ab-2277be012f80"
-  },
-  {
-    "title": "停车5折优惠",
-    "bank": "农行",
-    "cardName": "农行车主卡畅享版",
-    "category": "Vehicle",
-    "description": "停车5折优惠权益。",
-    "validity": "2026年第一季度起",
-    "value": "5折优惠",
-    "usageCondition": "停车支付时使用",
-    "terms": "保留权益",
-    "id": "fc18dff3-af5f-4e7e-bdd4-8af0e9be6fe0"
   }
 ]
