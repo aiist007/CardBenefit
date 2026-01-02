@@ -457,18 +457,6 @@
     "id": "ceb2fb12-6efb-414c-9042-e16b565e13aa"
   },
   {
-    "title": "酒店报销",
-    "bank": "Citi",
-    "cardName": "Citi Strata Premier 信用卡",
-    "category": "Travel",
-    "description": "每年一次在 Citi Travel 中预定酒店可享受 $100 优惠。",
-    "validity": "每年一次",
-    "value": "100美元",
-    "usageCondition": "需在 Citi Travel 平台预定",
-    "terms": null,
-    "id": "5a327339-9460-47e8-9bfa-c0d7ec4f13c6"
-  },
-  {
     "title": "开卡奖励",
     "bank": "Citi",
     "cardName": "Citi Strata Premier 信用卡",
