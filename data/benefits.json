@@ -1177,5 +1177,18 @@
     "usageCondition": "每年消费满30笔。",
     "terms": "适用于早期下卡的尊然白及航司白金卡。",
     "id": "9b51f519-4765-4e9c-8ae2-db16b33ee35f"
+  },
+  {
+    "title": "无限带人PP卡及20万航司里程 (Copy)",
+    "bank": "中信",
+    "cardName": "中信银行Visa无限信用卡",
+    "category": "AnnualFee",
+    "description": "提供无限次带人PP贵宾厅权益，以及每年最高兑换20万航司里程。",
+    "validity": "2025-2026",
+    "value": "200000里程",
+    "usageCondition": "年费需288万积分兑换，里程兑换需300万积分（生日6折券后）。",
+    "terms": "需大量真实消费以获取积分。",
+    "id": "90668111-f276-43ac-8ea2-a7ba8d657775",
+    "isCompleted": false
   }
 ]
