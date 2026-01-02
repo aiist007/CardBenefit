@@ -371,5 +371,89 @@
     "usageCondition": "直接在农行APP查看并使用",
     "terms": "全年限6次",
     "id": "5d024abb-9882-4ee3-9dd3-efa739a374b3"
+  },
+  {
+    "title": "农行车主卡畅享版加油充电优惠（旧版）",
+    "bank": "农行",
+    "cardName": "农行车主卡畅享版",
+    "category": "Vehicle",
+    "description": "月消费满888元，次月可领取加油100-40、充电50-40券各两张。",
+    "validity": "2026年第一季度前",
+    "value": "160元",
+    "usageCondition": "月消费满888元",
+    "terms": "每月最高可省160元，加油6折，充电2折",
+    "id": "f3c0454d-303a-4e5b-b41c-30b3a04a6fe1"
+  },
+  {
+    "title": "农行车主卡畅享版加油充电优惠（新版）",
+    "bank": "农行",
+    "cardName": "农行车主卡畅享版",
+    "category": "Vehicle",
+    "description": "消费888元，仅可获1张券（加油200-20或充电30-20二选一）。消费再攀升至3888元，方可再获1张。",
+    "validity": "2026年第一季度起",
+    "value": "40元",
+    "usageCondition": "消费满888元获1张，满3888元获第2张",
+    "terms": "月省上限40元，优惠力度从6折变为9折，充电从2折变为3.3折",
+    "id": "bb090fef-0576-4102-adec-7010f916621b"
+  },
+  {
+    "title": "1元洗车",
+    "bank": "农行",
+    "cardName": "农行车主卡畅享版",
+    "category": "Vehicle",
+    "description": "1元洗车权益回归。",
+    "validity": "2026年第一季度起，每月一次",
+    "value": "15",
+    "usageCondition": "1元支付",
+    "terms": "每月限一次",
+    "id": "6842ef4b-c208-4e10-bebe-249a4cd3101a"
+  },
+  {
+    "title": "1元代驾",
+    "bank": "农行",
+    "cardName": "农行车主卡畅享版",
+    "category": "Vehicle",
+    "description": "1元代驾权益回归。",
+    "validity": "2026年第一季度起，每季度一次",
+    "value": "50",
+    "usageCondition": "1元支付",
+    "terms": "每季度限一次",
+    "id": "b1409bbc-ecec-495e-94ab-2277be012f80"
+  },
+  {
+    "title": "停车5折优惠",
+    "bank": "农行",
+    "cardName": "农行车主卡畅享版",
+    "category": "Vehicle",
+    "description": "停车5折优惠权益。",
+    "validity": "2026年第一季度起",
+    "value": "5折优惠",
+    "usageCondition": "停车支付时使用",
+    "terms": "保留权益",
+    "id": "fc18dff3-af5f-4e7e-bdd4-8af0e9be6fe0"
+  },
+  {
+    "title": "道路救援服务",
+    "bank": "农行",
+    "cardName": "农行车主卡畅享版",
+    "category": "Vehicle",
+    "description": "提供道路救援保障服务。",
+    "validity": "2026年第一季度起",
+    "value": "道路救援",
+    "usageCondition": "车辆发生故障时",
+    "terms": "保留权益",
+    "id": "6629db88-78dc-4b1c-9272-eb966ca809f6"
+  },
+  {
+    "title": "指定商户10%返现",
+    "bank": "广发",
+    "cardName": "多利卡、有鱼卡、有鱼潮卡、生活+、耀红卡",
+    "category": "Shopping",
+    "description": "指定商户10%返现模式。",
+    "validity": "2025年12月31日前（2026年1月1日起停发新卡）",
+    "value": "10%返现",
+    "usageCondition": "指定商户消费",
+    "terms": "2026年1月1日起全面暂停新发卡，存量卡短期内可继续按现有规则使用",
+    "id": "bcaaceab-048d-49d7-af33-3bfe988698ac"
   }
 ]
