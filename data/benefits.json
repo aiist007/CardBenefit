@@ -783,18 +783,6 @@
     "id": "ea7ec3dd-fff8-4698-970c-21200c3e2277"
   },
   {
-    "title": "积分兑换住四送一",
-    "bank": "AMEX US",
-    "cardName": "AMEX Marriott Bonvoy Bevy",
-    "category": "Travel",
-    "description": "使用全积分预定万豪酒店入住时，连续入住五晚仅需支付四晚积分。",
-    "validity": "长期有效",
-    "value": "住四送一",
-    "usageCondition": "全部积分预定",
-    "terms": "",
-    "id": "14c475db-c61f-4474-abf2-015dc0384426"
-  },
-  {
     "title": "积分转航空里程",
     "bank": "AMEX US",
     "cardName": "AMEX Marriott Bonvoy Bevy",
