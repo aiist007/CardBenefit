@@ -1361,7 +1361,7 @@
   {
     "title": "白金卡里程兑换权益",
     "bank": "上海银行",
-    "cardName": "上海银行东航白金卡",
+    "cardName": "白金卡",
     "category": "Travel",
     "description": "每月刷36000封顶，每消费人民币12元即可兑换1点“东方万里行”积分。享消费积分永久有效，免费账单短信提示等服务。",
     "validity": "长期有效",
@@ -1373,7 +1373,7 @@
   {
     "title": "白金卡航班延误险",
     "bank": "上海银行",
-    "cardName": "上海银行东航白金卡",
+    "cardName": "白金卡",
     "category": "Travel",
     "description": "持卡人可享受航班延误险保障。",
     "validity": "长期有效",
@@ -1465,17 +1465,5 @@
     "usageCondition": "手动兑换",
     "terms": "建议配合 EveryMile 卡使用以优化兑换比例。",
     "id": "17ec3669-33f8-45c5-98fd-811a7217f0d3"
-  },
-  {
-    "title": "商户现金兑换",
-    "bank": "汇丰",
-    "cardName": "汇丰 Red 信用卡",
-    "category": "Shopping",
-    "description": "在指定合作伙伴（如金钟廊、K11 等）直接将奖赏钱当现金使用。",
-    "validity": "",
-    "value": "现金等值",
-    "usageCondition": "指定商户消费",
-    "terms": "",
-    "id": "4263b286-8f99-488c-967e-c2c1079f195b"
   }
 ]
