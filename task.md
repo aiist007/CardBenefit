@@ -1,0 +1,3 @@
+- [x] Optimize IDE performance to fix lag (优化编辑器卡顿，解决 VS Code 初始化缓慢问题)
+- [x] Optimize browser fallback mechanism (优化浏览器降级抓取机制，提升响应速度)
+- [x] Add loading indicators for long-running parsers (为长耗时解析添加前端加载状态)

@@ -1,0 +1,195 @@
+[00:00:00.754] Server  LOG     ✓ Ready in 553ms
+[00:00:04.924] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:35.536] Browser WARN    Checkbox is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[00:13:11.991] Browser WARN    Checkbox is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[00:13:20.870] Server  LOG     ✓ Compiled in 237ms
+[00:13:39.691] Browser WARN    Checkbox is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[00:13:42.609] Browser WARN    Checkbox is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[00:13:51.271] Browser WARN    Checkbox is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[00:13:52.149] Browser WARN    Checkbox is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[00:15:31.253] Server  ERROR   Failed to parse AI response part: SyntaxError: Expected ':' after property name in JSON at position 13884 (line 433 column 14)
+[00:25:32.945] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:39.094] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/context/BenefitContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:28:39.112] Server  LOG     ✓ Compiled in 105ms
+[00:28:39.707] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:50.197] Server  LOG     ✓ Compiled in 167ms
+[00:31:38.441] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:58.729] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:01.331] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:04.362] Browser WARN    Checkbox is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[00:37:10.387] Browser WARN    Checkbox is changing from controlled to uncontrolled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[00:37:56.579] Browser WARN    Checkbox is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[00:40:44.572] Server  LOG     ✓ Compiled in 112ms
+[00:40:44.678] Browser ERROR   ./src/components/benefit/AddBenefitForm.tsx:105:11
+Parsing ecmascript source code failed
+  103 |                 setConstraints('');
+  104 |             }
+> 105 |         } else {
+      |           ^
+  106 |             alert('请提供网页链接、上传截图或输入指令。');
+  107 |         }
+  108 |     } catch (error: any) {
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./src/components/benefit/AddBenefitForm.tsx [Client Component Browser]
+    ./src/components/Dashboard.tsx [Client Component Browser]
+    ./src/components/Dashboard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/benefit/AddBenefitForm.tsx [Client Component SSR]
+    ./src/components/Dashboard.tsx [Client Component SSR]
+    ./src/components/Dashboard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:40:44.678] Browser ERROR   ./src/components/benefit/AddBenefitForm.tsx:105:11
+Parsing ecmascript source code failed
+  103 |                 setConstraints('');
+  104 |             }
+> 105 |         } else {
+      |           ^
+  106 |             alert('请提供网页链接、上传截图或输入指令。');
+  107 |         }
+  108 |     } catch (error: any) {
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./src/components/benefit/AddBenefitForm.tsx [Client Component Browser]
+    ./src/components/Dashboard.tsx [Client Component Browser]
+    ./src/components/Dashboard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/benefit/AddBenefitForm.tsx [Client Component SSR]
+    ./src/components/Dashboard.tsx [Client Component SSR]
+    ./src/components/Dashboard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:40:45.218] Browser ERROR   ./src/components/benefit/AddBenefitForm.tsx:105:11
+Parsing ecmascript source code failed
+  103 |                 setConstraints('');
+  104 |             }
+> 105 |         } else {
+      |           ^
+  106 |             alert('请提供网页链接、上传截图或输入指令。');
+  107 |         }
+  108 |     } catch (error: any) {
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./src/components/benefit/AddBenefitForm.tsx [Client Component Browser]
+    ./src/components/Dashboard.tsx [Client Component Browser]
+    ./src/components/Dashboard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/benefit/AddBenefitForm.tsx [Client Component SSR]
+    ./src/components/Dashboard.tsx [Client Component SSR]
+    ./src/components/Dashboard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:40:51.214] Browser ERROR   ./src/components/benefit/AddBenefitForm.tsx:105:11
+Parsing ecmascript source code failed
+  103 |                 setConstraints('');
+  104 |             }
+> 105 |         } else {
+      |           ^
+  106 |             alert('请提供网页链接、上传截图或输入指令。');
+  107 |         }
+  108 |     } catch (error: any) {
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./src/components/benefit/AddBenefitForm.tsx [Client Component Browser]
+    ./src/components/Dashboard.tsx [Client Component Browser]
+    ./src/components/Dashboard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/benefit/AddBenefitForm.tsx [Client Component SSR]
+    ./src/components/Dashboard.tsx [Client Component SSR]
+    ./src/components/Dashboard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:40:51.215] Browser ERROR   ./src/components/benefit/AddBenefitForm.tsx:105:11
+Parsing ecmascript source code failed
+  103 |                 setConstraints('');
+  104 |             }
+> 105 |         } else {
+      |           ^
+  106 |             alert('请提供网页链接、上传截图或输入指令。');
+  107 |         }
+  108 |     } catch (error: any) {
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./src/components/benefit/AddBenefitForm.tsx [Client Component Browser]
+    ./src/components/Dashboard.tsx [Client Component Browser]
+    ./src/components/Dashboard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/benefit/AddBenefitForm.tsx [Client Component SSR]
+    ./src/components/Dashboard.tsx [Client Component SSR]
+    ./src/components/Dashboard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:40:51.215] Browser ERROR   ./src/components/benefit/AddBenefitForm.tsx:105:11
+Parsing ecmascript source code failed
+  103 |                 setConstraints('');
+  104 |             }
+> 105 |         } else {
+      |           ^
+  106 |             alert('请提供网页链接、上传截图或输入指令。');
+  107 |         }
+  108 |     } catch (error: any) {
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./src/components/benefit/AddBenefitForm.tsx [Client Component Browser]
+    ./src/components/Dashboard.tsx [Client Component Browser]
+    ./src/components/Dashboard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/benefit/AddBenefitForm.tsx [Client Component SSR]
+    ./src/components/Dashboard.tsx [Client Component SSR]
+    ./src/components/Dashboard.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:42:29.979] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:25.426] Server  LOG     ✓ Compiled in 83ms
+[00:43:36.708] Server  LOG     ✓ Compiled in 50ms
+[00:43:46.813] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:49.869] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/context/BenefitContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:45:49.874] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/context/BenefitContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:45:49.878] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/context/BenefitContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:45:49.880] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/context/BenefitContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:45:49.890] Server  LOG     ✓ Compiled in 21ms
+[00:45:50.725] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:50.833] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:50.878] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:51.060] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:51.318] Server  ERROR   Database read error: SyntaxError: Unexpected end of JSON input
+[00:46:05.453] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/context/BenefitContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:46:05.463] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/context/BenefitContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:46:05.467] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/context/BenefitContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:46:05.467] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/context/BenefitContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:46:05.481] Server  LOG     ✓ Compiled in 17ms
+[00:46:05.945] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:05.998] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:06.058] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:06.114] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:30.294] Server  LOG     ✓ Compiled in 77ms
+[00:46:48.658] Server  LOG     ✓ Compiled in 118ms
+[01:05:25.551] Server  LOG     ✓ Compiled in 131ms
+[01:05:41.785] Server  LOG     ✓ Compiled in 0ms
+[01:05:42.023] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:36.271] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
