@@ -1361,7 +1361,7 @@
   {
     "title": "白金卡里程兑换权益",
     "bank": "上海银行",
-    "cardName": "东航白金卡",
+    "cardName": "白金卡",
     "category": "Travel",
     "description": "每月刷36000封顶，每消费人民币12元即可兑换1点“东方万里行”积分。享消费积分永久有效，免费账单短信提示等服务。",
     "validity": "长期有效",
@@ -1373,7 +1373,7 @@
   {
     "title": "白金卡航班延误险",
     "bank": "上海银行",
-    "cardName": "东航白金卡",
+    "cardName": "白金卡",
     "category": "Travel",
     "description": "持卡人可享受航班延误险保障。",
     "validity": "长期有效",
