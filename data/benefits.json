@@ -709,5 +709,113 @@
     "usageCondition": "连续预订两晚以上",
     "terms": "房型升级视酒店供应情况而定。",
     "id": "efd8c90a-e6c2-4da6-89b9-6dafd727f441"
+  },
+  {
+    "title": "开卡奖励",
+    "bank": "AMEX HK",
+    "cardName": "AMEX Marriott Bonvoy Bevy",
+    "category": "Other",
+    "description": "前 6 个月内消费满 $5,000 可获得 155,000 Marriott 积分。",
+    "validity": "2025-09-24 过期",
+    "value": "155k 积分",
+    "usageCondition": "前 6 个月消费满 $5,000",
+    "terms": "曾获得过此卡或特定时间内持有过 Chase Marriott 系列卡者可能不适用；开卡奖励每人限一次。",
+    "id": "a97785c7-e53a-4711-8697-1b37c7c87c72"
+  },
+  {
+    "title": "万豪酒店消费奖励",
+    "bank": "AMEX HK",
+    "cardName": "AMEX Marriott Bonvoy Bevy",
+    "category": "Travel",
+    "description": "在万豪旗下酒店消费可获得 6 倍积分返点。",
+    "validity": "长期有效",
+    "value": "6x 积分",
+    "usageCondition": "万豪酒店消费",
+    "terms": "",
+    "id": "1e1ecdda-96b8-4e66-858d-a3c66c38ca18"
+  },
+  {
+    "title": "餐饮及超市消费奖励",
+    "bank": "AMEX HK",
+    "cardName": "AMEX Marriott Bonvoy Bevy",
+    "category": "Dining",
+    "description": "在餐厅及超市消费可获得 4 倍积分返点。",
+    "validity": "长期有效",
+    "value": "4x 积分",
+    "usageCondition": "餐厅及超市消费",
+    "terms": "",
+    "id": "0440e395-6b40-40c9-86ed-64b6722ba49a"
+  },
+  {
+    "title": "年度大消费免房券奖励",
+    "bank": "AMEX HK",
+    "cardName": "AMEX Marriott Bonvoy Bevy",
+    "category": "Travel",
+    "description": "每年消费满 $15,000，可获赠一张价值 50,000 积分的免房券（Free Night）。",
+    "validity": "每年",
+    "value": "50k 免房券",
+    "usageCondition": "每年消费满 $15,000",
+    "terms": "此卡不直接赠送年度免房券，必须通过消费达标获取。",
+    "id": "914b035f-7f84-401c-9aae-ab3cb18ce270"
+  },
+  {
+    "title": "万豪金会员等级",
+    "bank": "AMEX HK",
+    "cardName": "AMEX Marriott Bonvoy Bevy",
+    "category": "Travel",
+    "description": "持卡人自动获得万豪旅享家金会员（Gold Elite）身份。",
+    "validity": "持卡期间",
+    "value": "金会员",
+    "usageCondition": "持卡即可",
+    "terms": "",
+    "id": "57852be6-d02e-4d19-9517-1296bcd6f32a"
+  },
+  {
+    "title": "入住额外积分奖励",
+    "bank": "AMEX HK",
+    "cardName": "AMEX Marriott Bonvoy Bevy",
+    "category": "Travel",
+    "description": "每次入住万豪旗下酒店可自动获取 1,000 万豪积分。",
+    "validity": "长期有效",
+    "value": "1000 积分",
+    "usageCondition": "每次入住万豪酒店",
+    "terms": "",
+    "id": "ea7ec3dd-fff8-4698-970c-21200c3e2277"
+  },
+  {
+    "title": "积分兑换住四送一",
+    "bank": "AMEX HK",
+    "cardName": "AMEX Marriott Bonvoy Bevy",
+    "category": "Travel",
+    "description": "使用全积分预定万豪酒店入住时，连续入住五晚仅需支付四晚积分。",
+    "validity": "长期有效",
+    "value": "住四送一",
+    "usageCondition": "全部积分预定",
+    "terms": "",
+    "id": "14c475db-c61f-4474-abf2-015dc0384426"
+  },
+  {
+    "title": "积分转航空里程",
+    "bank": "AMEX HK",
+    "cardName": "AMEX Marriott Bonvoy Bevy",
+    "category": "Travel",
+    "description": "万豪积分可以 3:1 比例转为多家航空里程。每转 60,000 积分可额外获赠 5,000 里程奖励。",
+    "validity": "长期有效",
+    "value": "3:1 转点",
+    "usageCondition": "积分兑换",
+    "terms": "转至 UA 里程时有额外 10% 奖励。",
+    "id": "3b7b76ba-57c6-421a-8092-c1fd21436eea"
+  },
+  {
+    "title": "其他消费返点",
+    "bank": "AMEX HK",
+    "cardName": "AMEX Marriott Bonvoy Bevy",
+    "category": "Other",
+    "description": "除特定类别外的所有其他消费可获得 2 倍积分返点。",
+    "validity": "长期有效",
+    "value": "2x 积分",
+    "usageCondition": "普通消费",
+    "terms": "",
+    "id": "d4fec0c1-d78a-4982-94e7-b5749f31e120"
   }
 ]
