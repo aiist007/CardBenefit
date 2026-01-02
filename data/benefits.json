@@ -769,17 +769,5 @@
     "usageCondition": "全款购买商品",
     "terms": "需符合保险细则。",
     "id": "31b57e64-662b-4ae6-a476-d1ec0f3f1812"
-  },
-  {
-    "title": "航空报销",
-    "bank": "AMEX HK",
-    "cardName": "AMEX Gold Card",
-    "category": "Travel",
-    "description": "持卡人可享受航空相关费用的报销福利。",
-    "validity": "",
-    "value": "",
-    "usageCondition": "航空相关消费",
-    "terms": "",
-    "id": "ed90316f-c2d6-4585-b61e-d11e7b0fbbcb"
   }
 ]
