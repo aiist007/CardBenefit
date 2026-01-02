@@ -1203,18 +1203,6 @@
     "id": "faa9ce12-e366-408e-b4ce-c191811112db"
   },
   {
-    "title": "龙霸天年费规则",
-    "bank": "广发",
-    "cardName": "广发龙霸天信用卡",
-    "category": "AnnualFee",
-    "description": "刚性年费480元/年，激活后收取。",
-    "validity": "长期有效",
-    "value": "-480",
-    "usageCondition": "激活卡片",
-    "terms": "无免年费政策",
-    "id": "55310a82-18ab-42b7-8f26-9711f7753686"
-  },
-  {
     "title": "无限次自营贵宾厅",
     "bank": "广发",
     "cardName": "广发龙霸天信用卡",
