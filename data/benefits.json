@@ -233,7 +233,7 @@
   {
     "title": "全球机场/高铁贵宾厅",
     "bank": "浦发",
-    "cardName": "浦发银行美国运通Safari卡",
+    "cardName": "华夏银行美国运通 Safari 信用卡",
     "category": "Travel",
     "description": "每月消费3笔，次月月底得1龙腾，年限12点。",
     "validity": "2026年",
@@ -245,7 +245,7 @@
   {
     "title": "机场/高铁接送",
     "bank": "浦发",
-    "cardName": "浦发银行美国运通Safari卡",
+    "cardName": "华夏银行美国运通 Safari 信用卡",
     "category": "Travel",
     "description": "每月消费3笔，次月月底得1次，年限3次。",
     "validity": "2026年",
@@ -257,7 +257,7 @@
   {
     "title": "延误险",
     "bank": "浦发",
-    "cardName": "浦发银行美国运通Safari卡",
+    "cardName": "华夏银行美国运通 Safari 信用卡",
     "category": "Insurance",
     "description": "6个月内延误2小时最高赔付1500元机票款。",
     "validity": "2026年",
@@ -269,7 +269,7 @@
   {
     "title": "抢500元刷卡金",
     "bank": "浦发",
-    "cardName": "浦发银行美国运通Safari卡",
+    "cardName": "华夏银行美国运通 Safari 信用卡",
     "category": "Shopping",
     "description": "每月消费2000元（含500元机票），抢500元刷卡金。",
     "validity": "2026年",
@@ -281,7 +281,7 @@
   {
     "title": "年费优惠返现",
     "bank": "浦发",
-    "cardName": "浦发银行美国运通Safari卡",
+    "cardName": "华夏银行美国运通 Safari 信用卡",
     "category": "AnnualFee",
     "description": "每月微信支付消费3笔168元或月累计消费达9999元，每月返125元，12个月总计返1500元年费。",
     "validity": "12个月",
@@ -448,7 +448,7 @@
   },
   {
     "title": "$400 Hilton Resort 报销",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "每年提供 $400 的希尔顿度假村报销，包含房费、房内用餐、酒店餐馆、各项活动等。取代原有的 $250 报销福利。",
@@ -460,7 +460,7 @@
   },
   {
     "title": "$200 机票报销",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "每年 $200 机票报销，可用于航空公司官网或 AMEX Travel 订票，包含机票、行李、选座杂费等。取代原有的航空杂费报销。",
@@ -472,7 +472,7 @@
   },
   {
     "title": "$189 Clear 报销",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Hilton Aspire Card",
     "category": "AnnualFee",
     "description": "报销快速安检通道 Clear 的会员费，额度足以覆盖年费。",
@@ -484,7 +484,7 @@
   },
   {
     "title": "赠送 Hilton 钻石会员",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "希尔顿最高级会员，享受免费早餐、入住获取更多积分奖励、房型升级（可能升至套房）。",
@@ -496,7 +496,7 @@
   },
   {
     "title": "年度免房奖励",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "每年自动赠送一张免房券，可用于 Hilton 旗下酒店和度假村。第一年也赠送。",
@@ -508,7 +508,7 @@
   },
   {
     "title": "手机保险",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Hilton Aspire Card",
     "category": "Insurance",
     "description": "提供手机损坏或被盗保险。",
@@ -520,7 +520,7 @@
   },
   {
     "title": "多倍积分返现",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "Hilton 酒店消费 14x 积分；机票、吃饭、租车消费 7x 积分；其他消费 3x 积分。",
@@ -532,7 +532,7 @@
   },
   {
     "title": "National 租车高级会籍",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "赠送 National Car Rental 的 Emerald Club Executive 会籍。",
@@ -544,7 +544,7 @@
   },
   {
     "title": "延长保修",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Hilton Aspire Card",
     "category": "Insurance",
     "description": "使用 AMEX 卡全款购买的商品，厂家保修期自动延长一年。",
@@ -556,7 +556,7 @@
   },
   {
     "title": "希尔顿荣誉客会钻石会籍 (Diamond Status)",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "持卡人直接获得希尔顿荣誉客会最高等级的钻石会籍，享受免费早餐、行政酒廊使用权、房型升级（最高至套房）及100%额外积分奖励。",
@@ -568,7 +568,7 @@
   },
   {
     "title": "年度免费住宿奖励 (Free Night Reward)",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Hilton Aspire Card",
     "category": "AnnualFee",
     "description": "开卡及每年续卡后可获得一张希尔顿全球酒店免费住宿券（FNC），可兑换希尔顿旗下绝大多数酒店的一晚标准房住宿。",
@@ -580,7 +580,7 @@
   },
   {
     "title": "希尔顿度假村消费报销 (Hilton Resort Credit)",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "在希尔顿指定度假村（Resorts）进行合规消费，每年最高可获得$400的报销额度。",
@@ -592,7 +592,7 @@
   },
   {
     "title": "航空消费报销 (Flight Credit)",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "在航空公司直接进行的合规消费（如机票预订），每年最高可获得$200的报销额度。",
@@ -604,7 +604,7 @@
   },
   {
     "title": "华尔道夫/康莱德酒店$100消费额度",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "通过指定渠道预订华尔道夫或康莱德酒店并至少入住2晚，可获得$100的店内消费额度。",
@@ -616,7 +616,7 @@
   },
   {
     "title": "Uber Credit",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express® Gold Card",
     "category": "Travel",
     "description": "每月赠送 $10 的 Uber Credit，可用于 Uber 叫车或 Uber Eats 外卖。",
@@ -628,7 +628,7 @@
   },
   {
     "title": "Dunkin Donuts 报销",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express® Gold Card",
     "category": "Dining",
     "description": "每月提供 $7 的 Dunkin donuts 消费报销。",
@@ -640,7 +640,7 @@
   },
   {
     "title": "Resy 报销",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express® Gold Card",
     "category": "Dining",
     "description": "每半年提供 $50 的 Resy 报销，用于在 Resy 平台预订的餐馆消费。",
@@ -652,7 +652,7 @@
   },
   {
     "title": "Dining Credit",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express® Gold Card",
     "category": "Dining",
     "description": "每月 $10 餐馆报销，适用于 Grubhub, Seamless, The Cheesecake Factory, Ruth’s Chris Steak House, Shake Shack 及 Boxed.com。",
@@ -664,7 +664,7 @@
   },
   {
     "title": "餐饮消费 4x 积分",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express® Gold Card",
     "category": "Travel",
     "description": "全球餐馆消费（包括外卖）可获得 4x MR 积分。",
@@ -676,7 +676,7 @@
   },
   {
     "title": "超市消费 4x 积分",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express® Gold Card",
     "category": "Travel",
     "description": "美国超市消费可获得 4x MR 积分。",
@@ -688,7 +688,7 @@
   },
   {
     "title": "机票预订 3x 积分",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express® Gold Card",
     "category": "Travel",
     "description": "直接在航空公司官网或通过 amextravel.com 预订机票可获 3x 积分。",
@@ -700,7 +700,7 @@
   },
   {
     "title": "The Hotel Collection (THC) 福利",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express® Gold Card",
     "category": "Travel",
     "description": "通过 amextravel 预订 THC 酒店，可获房型升级及 $100 酒店内消费抵扣（如餐饮、SPA）。",
@@ -712,7 +712,7 @@
   },
   {
     "title": "万豪酒店消费奖励",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Marriott Bonvoy Bevy Card",
     "category": "Travel",
     "description": "在万豪旗下酒店消费可获得 6 倍积分返点。",
@@ -724,7 +724,7 @@
   },
   {
     "title": "餐饮及超市消费奖励",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Marriott Bonvoy Bevy Card",
     "category": "Travel",
     "description": "在餐厅及超市消费可获得 4 倍积分返点。",
@@ -736,7 +736,7 @@
   },
   {
     "title": "积分转航空里程",
-    "bank": "AMEX US",
+    "bank": "AMEX HK",
     "cardName": "American Express Marriott Bonvoy Bevy Card",
     "category": "Travel",
     "description": "万豪积分可以 3:1 比例转为多家航空里程。每转 60,000 积分可额外获赠 5,000 里程奖励。",
@@ -1121,7 +1121,7 @@
   {
     "title": "UP白金卡消费返现",
     "bank": "华夏",
-    "cardName": "华夏银行UP白金卡",
+    "cardName": "白金卡",
     "category": "Shopping",
     "description": "通过微信、支付宝、云闪付线上消费返1% UP成长金。每月上限200 UP金。",
     "validity": "长期有效",
@@ -1333,17 +1333,5 @@
     "usageCondition": "需在银行存入指定金额保证金。",
     "terms": "加油立减金活动政策变动频繁。",
     "id": "7507421d-f7de-4df6-9bf3-b44982f88377"
-  },
-  {
-    "title": "黑金家庭健身游泳权益",
-    "bank": "民生",
-    "cardName": "民生银行无限信用卡",
-    "category": "AnnualFee",
-    "description": "提供高端酒店健身房及游泳池使用权益，适合家庭使用。",
-    "validity": "2026",
-    "value": "100",
-    "usageCondition": "3个月资产达标即可豁免年费。",
-    "terms": "2026年免年费政策为历史最优。",
-    "id": "1e1a946e-954b-436f-b242-dfde20331120"
   }
 ]
