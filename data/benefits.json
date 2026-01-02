@@ -457,18 +457,6 @@
     "id": "ceb2fb12-6efb-414c-9042-e16b565e13aa"
   },
   {
-    "title": "Costco会员专属返现",
-    "bank": "Citi",
-    "cardName": "Citi Costco",
-    "category": "Shopping",
-    "description": "加油 4%，吃饭和旅行 3%，Costco 消费 2%，其余 1%。",
-    "validity": "长期有效",
-    "value": "最高4%返现",
-    "usageCondition": "指定类别消费",
-    "terms": "无年费",
-    "id": "29d2f809-421e-400a-999b-5c8f7edb2bf9"
-  },
-  {
     "title": "全量消费返点",
     "bank": "Chase",
     "cardName": "Chase Freedom Unlimited",
