@@ -1033,17 +1033,5 @@
     "usageCondition": "境外消费",
     "terms": "每月返现上限为365元人民币，无需报名。",
     "id": "3c11660c-b355-4031-9605-89b11627fbb6"
-  },
-  {
-    "title": "用卡安全保障",
-    "bank": "平安",
-    "cardName": "平安银行瑞幸联名信用卡",
-    "category": "Insurance",
-    "description": "挂失前72小时盗刷资金保障。",
-    "validity": "",
-    "value": "30万元",
-    "usageCondition": "挂失前72小时内盗刷",
-    "terms": "最高额度30万元",
-    "id": "5bae9f0b-2566-44d1-8f6f-163ae1e27db8"
   }
 ]
