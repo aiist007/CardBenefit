@@ -1395,18 +1395,6 @@
     "id": "555028fe-cefb-4250-ab21-0b4ad84142ec"
   },
   {
-    "title": "尊旅卡里程兑换",
-    "bank": "广发",
-    "cardName": "广发尊旅白金信用卡",
-    "category": "Travel",
-    "description": "国航/东航/川航10:1兑换；南航/亚万15:1兑换。",
-    "validity": "每年",
-    "value": null,
-    "usageCondition": "积分兑换",
-    "terms": "每年上限5万里程",
-    "id": "86cd260c-a653-4905-807d-c8c77b88f407"
-  },
-  {
     "title": "鼎级白金卡里程兑换",
     "bank": "广发",
     "cardName": "广发鼎级白金信用卡",
