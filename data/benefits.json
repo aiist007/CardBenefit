@@ -457,18 +457,6 @@
     "id": "ceb2fb12-6efb-414c-9042-e16b565e13aa"
   },
   {
-    "title": "旅行报销",
-    "bank": "Chase",
-    "cardName": "Chase Sapphire Reserve",
-    "category": "Travel",
-    "description": "每年可以报销 $300 旅行消费，范围包括机票、酒店、游轮、租车等。",
-    "validity": "每年一次",
-    "value": "300美元",
-    "usageCondition": "产生旅行相关消费后自动报销",
-    "terms": null,
-    "id": "d7bc889d-ce87-4956-a303-3ba3b92bd717"
-  },
-  {
     "title": "机场休息室权益",
     "bank": "Chase",
     "cardName": "Chase Sapphire Reserve",
