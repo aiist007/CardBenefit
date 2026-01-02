@@ -1489,17 +1489,5 @@
     "usageCondition": "持卡消费。",
     "terms": "积分永久有效。",
     "id": "c4d5da37-96ad-4b7e-bf58-7756f7a8d7c0"
-  },
-  {
-    "title": "联名借记卡新户福利",
-    "bank": "上海银行",
-    "cardName": "上海银行东航联名借记卡",
-    "category": "Travel",
-    "description": "新户办理东航上海银行联名借记卡并完成指定任务，至高获得4,600点“东方万里行”积分。",
-    "validity": "即日起-2025年11月30日",
-    "value": "4600点积分",
-    "usageCondition": "新户完成指定资产管理或指定任务。",
-    "terms": "名额有限，先到先得。",
-    "id": "d2de8513-b17a-418f-9d52-cfdcfc23d52a"
   }
 ]
