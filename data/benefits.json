@@ -1527,18 +1527,6 @@
     "id": "07613586-24a7-41ee-9eb3-6c6eb5d274d9"
   },
   {
-    "title": "航空津贴报销",
-    "bank": "汇丰美国",
-    "cardName": "汇丰美国卓越理财尊尚信用卡 (World Elite)",
-    "category": "Travel",
-    "description": "每年可报销 $100 的航空杂费（行李、选座等）。",
-    "validity": "每年",
-    "value": "100美元",
-    "usageCondition": "支付航空杂费",
-    "terms": null,
-    "id": "d3c2779c-e6ac-4bba-bd0b-d3b64c70401c"
-  },
-  {
     "title": "EveryMile 联动里程兑换",
     "bank": "汇丰香港",
     "cardName": "汇丰香港 EveryMile 信用卡",
