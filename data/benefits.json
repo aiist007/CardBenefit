@@ -457,18 +457,6 @@
     "id": "ceb2fb12-6efb-414c-9042-e16b565e13aa"
   },
   {
-    "title": "全量消费返点",
-    "bank": "Chase",
-    "cardName": "Chase Freedom Unlimited",
-    "category": "Other",
-    "description": "所有消费 1.5x UR 积分。",
-    "validity": "长期有效",
-    "value": "1.5x积分",
-    "usageCondition": "全量消费",
-    "terms": "需持有有年费的 Sapphire 系列卡片以实现更高兑换价值",
-    "id": "fd32f5af-5289-4065-88bb-f9444fb1fff9"
-  },
-  {
     "title": "开户奖励",
     "bank": "US Bank",
     "cardName": "US Bank Checking 账户",
