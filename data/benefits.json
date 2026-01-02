@@ -1383,18 +1383,6 @@
     "id": "5e5c2bcb-8659-4a73-b490-86c3f79fa4ab"
   },
   {
-    "title": "犀利卡指定商户返现",
-    "bank": "广发",
-    "cardName": "广发犀利信用卡",
-    "category": "Shopping",
-    "description": "百货、超市、餐饮消费每天返1%，周五自选一类商户最高返5%。",
-    "validity": "每周五",
-    "value": "100",
-    "usageCondition": "指定商户消费",
-    "terms": "每月最高返现100元",
-    "id": "555028fe-cefb-4250-ab21-0b4ad84142ec"
-  },
-  {
     "title": "鼎级白金卡里程兑换",
     "bank": "广发",
     "cardName": "广发鼎级白金信用卡",
