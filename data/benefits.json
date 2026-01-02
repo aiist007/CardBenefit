@@ -1215,18 +1215,6 @@
     "id": "6dd891ab-239e-42fd-b1cb-269ce193e96e"
   },
   {
-    "title": "UP金兑换虚拟权益",
-    "bank": "华夏",
-    "cardName": "华夏银行UP白金卡",
-    "category": "Shopping",
-    "description": "每月任意交易满10笔，次月可使用UP成长金兑换指定场景虚拟权益（如代金券）。",
-    "validity": "长期有效",
-    "value": "100",
-    "usageCondition": "单月满10笔交易，次月兑换",
-    "terms": "单月兑换上限100 UP金",
-    "id": "931ac19c-b92b-49c2-93e7-571b213676f0"
-  },
-  {
     "title": "KPL王者联名卡消费返现",
     "bank": "华夏",
     "cardName": "华夏银行KPL王者联名信用卡",
