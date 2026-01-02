@@ -817,17 +817,5 @@
     "usageCondition": "新客入金任意金额",
     "terms": "适用于新用户，附加条款和条件适用",
     "id": "fdaba318-580e-49c9-84f6-96f855343e09"
-  },
-  {
-    "title": "$50英伟达股票",
-    "bank": "Moomoo",
-    "cardName": "全量信用卡",
-    "category": "Other",
-    "description": "新客入金金额达到或超过$2,000，可获得价值$50的英伟达股票。",
-    "validity": "至2025-12-31",
-    "value": "$50英伟达股票",
-    "usageCondition": "入金 >= $2,000",
-    "terms": "适用于新用户，附加条款和条件适用",
-    "id": "a88704c5-260b-4046-9f79-39ab9ee77e7c"
   }
 ]
