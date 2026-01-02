@@ -1285,17 +1285,5 @@
     "usageCondition": "境外刷卡消费。",
     "terms": "作为招行优质火种卡推荐。",
     "id": "588c7565-718f-455b-808a-60284ed8a6ea"
-  },
-  {
-    "title": "15笔刷免大白金",
-    "bank": "工行",
-    "cardName": "白金卡",
-    "category": "AnnualFee",
-    "description": "每年消费15笔即可豁免当年年费。",
-    "validity": "2026",
-    "value": "null",
-    "usageCondition": "年消费满15笔，不限金额。",
-    "terms": "适合作为工行火种卡保留。",
-    "id": "3f53f95f-6f90-4c82-b3cb-200489fe810e"
   }
 ]
