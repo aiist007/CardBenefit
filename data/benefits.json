@@ -325,18 +325,6 @@
     "id": "f4f5ec7c-b036-4567-a2b0-24c7f269f2c9"
   },
   {
-    "title": "1元代驾",
-    "bank": "农行",
-    "cardName": "车主卡畅享版",
-    "category": "Vehicle",
-    "description": "支付金额在81元以内的订单，可享1元代驾，每次优惠至高80元。",
-    "validity": "每季度1次",
-    "value": "50",
-    "usageCondition": "持卡人首刷后，通过农行APP支付",
-    "terms": "畅享版和尊享版每天合计60份，每年限4次",
-    "id": "d3500c34-8a90-41fd-bceb-6afd356826b9"
-  },
-  {
     "title": "停车优惠",
     "bank": "农行",
     "cardName": "车主卡畅享版",
