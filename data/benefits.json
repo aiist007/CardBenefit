@@ -145,18 +145,6 @@
     "id": "7e86f893-d033-4a85-a7bd-a69504160c08"
   },
   {
-    "title": "消费满额礼",
-    "bank": "建行",
-    "cardName": "龙卡信用卡",
-    "category": "Other",
-    "description": "消费满额可享积分奖励。",
-    "validity": "2024-01-01至2024-03-31",
-    "value": "积分奖励",
-    "usageCondition": "消费满额",
-    "terms": "详见活动页面",
-    "id": "56186e23-e210-44c8-85a7-94f4564a3d47"
-  },
-  {
     "title": "越刷越有礼",
     "bank": "建行",
     "cardName": "通用",
