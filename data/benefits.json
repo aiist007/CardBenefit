@@ -1045,17 +1045,5 @@
     "usageCondition": "挂失前72小时内盗刷",
     "terms": "最高额度30万元",
     "id": "5bae9f0b-2566-44d1-8f6f-163ae1e27db8"
-  },
-  {
-    "title": "出行安全保障",
-    "bank": "平安",
-    "cardName": "平安银行瑞幸联名信用卡",
-    "category": "Insurance",
-    "description": "涵盖公共交通意外保障，其中飞机意外保额高。",
-    "validity": "",
-    "value": "100万元",
-    "usageCondition": "乘坐公共交通工具",
-    "terms": "飞机意外保额高达100万元",
-    "id": "0880d0a0-310f-4f56-b3ce-8fa0418c5504"
   }
 ]
