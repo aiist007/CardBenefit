@@ -735,18 +735,6 @@
     "id": "efd8c90a-e6c2-4da6-89b9-6dafd727f441"
   },
   {
-    "title": "无境外手续费",
-    "bank": "AMEX HK",
-    "cardName": "AMEX Gold Card",
-    "category": "Travel",
-    "description": "境外刷卡无 DCC 手续费，按当地货币结算汇率优。",
-    "validity": "长期有效",
-    "value": "免手续费",
-    "usageCondition": "境外刷卡",
-    "terms": null,
-    "id": "cae0f22f-a65b-4b5e-85bb-c7f7cd61f8bf"
-  },
-  {
     "title": "延长保修",
     "bank": "AMEX HK",
     "cardName": "AMEX Gold Card",
