@@ -759,18 +759,6 @@
     "id": "66ca73c3-983e-4486-8047-d6899eb21e7e"
   },
   {
-    "title": "免兑换手续费",
-    "bank": "AMEX HK",
-    "cardName": "Explorer 信用卡",
-    "category": "Travel",
-    "description": "兑换航空里程或酒店积分时，无需支付任何手续费。",
-    "validity": "长期有效",
-    "value": "免手续费",
-    "usageCondition": "兑换里程或酒店积分时",
-    "terms": "支持兑换10+间航空公司里程及万豪、希尔顿酒店积分",
-    "id": "d65e6081-b347-402e-9438-8362d8ac2086"
-  },
-  {
     "title": "指定商户消费积分奖励",
     "bank": "AMEX HK",
     "cardName": "Explorer 信用卡",
