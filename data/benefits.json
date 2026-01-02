@@ -82,7 +82,8 @@
     "value": "定额赔付600元",
     "usageCondition": "起飞延误4小时以上",
     "terms": "",
-    "id": "ab88c429-5acc-4c81-af0f-1fec2ef6228c"
+    "id": "ab88c429-5acc-4c81-af0f-1fec2ef6228c",
+    "isCompleted": true
   },
   {
     "title": "运通酒店精选权益",
