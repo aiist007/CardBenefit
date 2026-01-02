@@ -1299,18 +1299,6 @@
     "id": "68d6146b-fa0d-4a64-89bc-8887ab7092d0"
   },
   {
-    "title": "华为支付返现",
-    "bank": "广发",
-    "cardName": "广发华为联名白金信用卡",
-    "category": "Shopping",
-    "description": "华为支付享3%返现；微信、支付宝、Huawei Pay、云闪付1%返现。",
-    "validity": "每月",
-    "value": "100",
-    "usageCondition": "使用指定支付方式",
-    "terms": "单日最高20元，单月最高100元",
-    "id": "4d2fe865-7220-4f05-870e-272c1cb6ef01"
-  },
-  {
     "title": "鼎级白金卡里程兑换",
     "bank": "广发",
     "cardName": "广发鼎级白金信用卡",
