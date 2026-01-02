@@ -1,18 +1,9 @@
 [
   {
-    "id": "test-git",
-    "title": "Git Test Benefit"
-  },
-  {
-    "id": "7f9e1c2a-3b4d-4e5f-a6b7-c8d9e0f1a2b3",
-    "title": "龙腾贵宾厅",
-    "bank": "其他银行",
-    "cardName": "通用",
-    "category": "出行权益",
-    "description": "龙腾贵宾厅 1 次",
-    "validity": "2026-12-31",
-    "value": "1次",
-    "usageCondition": "",
-    "terms": ""
+    "id": "xingye-final-1767351016422",
+    "title": "无限次机场接送",
+    "bank": "兴业银行",
+    "card": "悠白系列白金信用卡",
+    "category": "出行权益"
   }
 ]
