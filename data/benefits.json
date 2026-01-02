@@ -481,18 +481,6 @@
     "id": "1e611a1f-5c7c-4292-91cf-364fec231c45"
   },
   {
-    "title": "境内支付立减",
-    "bank": "农行",
-    "cardName": "建行家庭挚爱",
-    "category": "Shopping",
-    "description": "境内云闪付支付满30随机立减0.5至20。",
-    "validity": "长期",
-    "value": "0.5-20元立减金",
-    "usageCondition": "境内云闪付支付满30元",
-    "terms": "随机立减",
-    "id": "2cb2e7c5-27d7-49c5-96ea-ef695a939ede"
-  },
-  {
     "title": "年费优惠政策",
     "bank": "农行",
     "cardName": "建行家庭挚爱",
