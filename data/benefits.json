@@ -1033,17 +1033,5 @@
     "usageCondition": "持卡即可",
     "terms": "每自然年限1次。",
     "id": "4ee15227-16b4-463a-903b-428fffc16f39"
-  },
-  {
-    "title": "高端医疗预约",
-    "bank": "华夏",
-    "cardName": "华夏银行美国运通 Safari 信用卡",
-    "category": "Health",
-    "description": "可享受运通提供的部分高端医疗机构预约通道及折扣。",
-    "validity": "持卡期间",
-    "value": null,
-    "usageCondition": "运通平台预约",
-    "terms": "仅限指定医疗机构。",
-    "id": "1e01b0ef-5dc1-4e9c-8a55-aa1bfebf9581"
   }
 ]
