@@ -395,17 +395,5 @@
     "usageCondition": "当月银联任意消费2笔。",
     "terms": "次月获得2次洗车资格。",
     "id": "04a4753e-fc99-4edb-8ebf-a02d1a9430fc"
-  },
-  {
-    "title": "年费优惠政策",
-    "bank": "农行",
-    "cardName": "建行家庭挚爱",
-    "category": "Other",
-    "description": "首年免年费，主卡580元/年，消费满10次免次年年费。",
-    "validity": "长期",
-    "value": "580",
-    "usageCondition": "首年免，消费满10次免次年",
-    "terms": "主附卡分别计次",
-    "id": "89ad7dd6-fd35-4f4b-913e-790ce36cff8b"
   }
 ]
