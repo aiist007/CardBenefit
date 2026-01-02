@@ -1359,18 +1359,6 @@
     "id": "5a241b3b-ca02-491c-a2ff-c28390737833"
   },
   {
-    "title": "永久免年费",
-    "bank": "汇丰",
-    "cardName": "汇丰 Red 信用卡",
-    "category": "AnnualFee",
-    "description": "持卡人永久豁免年费，无需担心消费次数或金额。",
-    "validity": "永久",
-    "value": "0",
-    "usageCondition": "持卡即享",
-    "terms": "",
-    "id": "352d67f0-7e5b-4886-bde9-df50f466e119"
-  },
-  {
     "title": "极高里程兑换比例及积分回赠",
     "bank": "汇丰",
     "cardName": "汇丰 EveryMile 信用卡 (HSBC EveryMile Credit Card)",
