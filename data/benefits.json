@@ -759,18 +759,6 @@
     "id": "914b035f-7f84-401c-9aae-ab3cb18ce270"
   },
   {
-    "title": "万豪金会员等级",
-    "bank": "AMEX US",
-    "cardName": "AMEX Marriott Bonvoy Bevy",
-    "category": "Travel",
-    "description": "持卡人自动获得万豪旅享家金会员（Gold Elite）身份。",
-    "validity": "持卡期间",
-    "value": "金会员",
-    "usageCondition": "持卡即可",
-    "terms": "",
-    "id": "57852be6-d02e-4d19-9517-1296bcd6f32a"
-  },
-  {
     "title": "积分转航空里程",
     "bank": "AMEX US",
     "cardName": "AMEX Marriott Bonvoy Bevy",
