@@ -449,6 +449,7 @@
   {
     "title": "$400 Hilton Resort 报销",
     "bank": "AMEX US",
+    "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "每年提供 $400 的希尔顿度假村报销，包含房费、房内用餐、酒店餐馆、各项活动等。取代原有的 $250 报销福利。",
     "validity": "每半年 $200",
@@ -460,6 +461,7 @@
   {
     "title": "$200 机票报销",
     "bank": "AMEX US",
+    "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "每年 $200 机票报销，可用于航空公司官网或 AMEX Travel 订票，包含机票、行李、选座杂费等。取代原有的航空杂费报销。",
     "validity": "每个季度 $50",
@@ -471,6 +473,7 @@
   {
     "title": "$189 Clear 报销",
     "bank": "AMEX US",
+    "cardName": "American Express Hilton Aspire Card",
     "category": "AnnualFee",
     "description": "报销快速安检通道 Clear 的会员费，额度足以覆盖年费。",
     "validity": "每年",
@@ -482,6 +485,7 @@
   {
     "title": "赠送 Hilton 钻石会员",
     "bank": "AMEX US",
+    "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "希尔顿最高级会员，享受免费早餐、入住获取更多积分奖励、房型升级（可能升至套房）。",
     "validity": "持卡期间有效",
@@ -493,6 +497,7 @@
   {
     "title": "年度免房奖励",
     "bank": "AMEX US",
+    "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "每年自动赠送一张免房券，可用于 Hilton 旗下酒店和度假村。第一年也赠送。",
     "validity": "每年一张",
@@ -504,6 +509,7 @@
   {
     "title": "手机保险",
     "bank": "AMEX US",
+    "cardName": "American Express Hilton Aspire Card",
     "category": "Insurance",
     "description": "提供手机损坏或被盗保险。",
     "validity": "每 12 个月最多两次",
@@ -515,6 +521,7 @@
   {
     "title": "多倍积分返现",
     "bank": "AMEX US",
+    "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "Hilton 酒店消费 14x 积分；机票、吃饭、租车消费 7x 积分；其他消费 3x 积分。",
     "validity": "长期有效",
@@ -526,6 +533,7 @@
   {
     "title": "National 租车高级会籍",
     "bank": "AMEX US",
+    "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "赠送 National Car Rental 的 Emerald Club Executive 会籍。",
     "validity": "持卡期间有效",
@@ -537,6 +545,7 @@
   {
     "title": "延长保修",
     "bank": "AMEX US",
+    "cardName": "American Express Hilton Aspire Card",
     "category": "Insurance",
     "description": "使用 AMEX 卡全款购买的商品，厂家保修期自动延长一年。",
     "validity": "长期有效",
@@ -548,6 +557,7 @@
   {
     "title": "希尔顿荣誉客会钻石会籍 (Diamond Status)",
     "bank": "AMEX US",
+    "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "持卡人直接获得希尔顿荣誉客会最高等级的钻石会籍，享受免费早餐、行政酒廊使用权、房型升级（最高至套房）及100%额外积分奖励。",
     "validity": "持卡期间长期有效",
@@ -559,6 +569,7 @@
   {
     "title": "年度免费住宿奖励 (Free Night Reward)",
     "bank": "AMEX US",
+    "cardName": "American Express Hilton Aspire Card",
     "category": "AnnualFee",
     "description": "开卡及每年续卡后可获得一张希尔顿全球酒店免费住宿券（FNC），可兑换希尔顿旗下绝大多数酒店的一晚标准房住宿。",
     "validity": "每年一次",
@@ -570,6 +581,7 @@
   {
     "title": "希尔顿度假村消费报销 (Hilton Resort Credit)",
     "bank": "AMEX US",
+    "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "在希尔顿指定度假村（Resorts）进行合规消费，每年最高可获得$400的报销额度。",
     "validity": "每半年$200",
@@ -581,6 +593,7 @@
   {
     "title": "航空消费报销 (Flight Credit)",
     "bank": "AMEX US",
+    "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "在航空公司直接进行的合规消费（如机票预订），每年最高可获得$200的报销额度。",
     "validity": "每季度$50",
@@ -592,6 +605,7 @@
   {
     "title": "华尔道夫/康莱德酒店$100消费额度",
     "bank": "AMEX US",
+    "cardName": "American Express Hilton Aspire Card",
     "category": "Travel",
     "description": "通过指定渠道预订华尔道夫或康莱德酒店并至少入住2晚，可获得$100的店内消费额度。",
     "validity": "长期有效",
@@ -603,6 +617,7 @@
   {
     "title": "Uber Credit",
     "bank": "AMEX US",
+    "cardName": "American Express® Gold Card",
     "category": "Travel",
     "description": "每月赠送 $10 的 Uber Credit，可用于 Uber 叫车或 Uber Eats 外卖。",
     "validity": "每月一次",
@@ -614,6 +629,7 @@
   {
     "title": "Dunkin Donuts 报销",
     "bank": "AMEX US",
+    "cardName": "American Express® Gold Card",
     "category": "Dining",
     "description": "每月提供 $7 的 Dunkin donuts 消费报销。",
     "validity": "每月一次",
@@ -625,6 +641,7 @@
   {
     "title": "Resy 报销",
     "bank": "AMEX US",
+    "cardName": "American Express® Gold Card",
     "category": "Dining",
     "description": "每半年提供 $50 的 Resy 报销，用于在 Resy 平台预订的餐馆消费。",
     "validity": "每半年一次",
@@ -636,6 +653,7 @@
   {
     "title": "Dining Credit",
     "bank": "AMEX US",
+    "cardName": "American Express® Gold Card",
     "category": "Dining",
     "description": "每月 $10 餐馆报销，适用于 Grubhub, Seamless, The Cheesecake Factory, Ruth’s Chris Steak House, Shake Shack 及 Boxed.com。",
     "validity": "每月一次",
@@ -647,6 +665,7 @@
   {
     "title": "餐饮消费 4x 积分",
     "bank": "AMEX US",
+    "cardName": "American Express® Gold Card",
     "category": "Travel",
     "description": "全球餐馆消费（包括外卖）可获得 4x MR 积分。",
     "validity": "长期有效",
@@ -658,6 +677,7 @@
   {
     "title": "超市消费 4x 积分",
     "bank": "AMEX US",
+    "cardName": "American Express® Gold Card",
     "category": "Travel",
     "description": "美国超市消费可获得 4x MR 积分。",
     "validity": "长期有效",
@@ -669,6 +689,7 @@
   {
     "title": "机票预订 3x 积分",
     "bank": "AMEX US",
+    "cardName": "American Express® Gold Card",
     "category": "Travel",
     "description": "直接在航空公司官网或通过 amextravel.com 预订机票可获 3x 积分。",
     "validity": "长期有效",
@@ -680,6 +701,7 @@
   {
     "title": "The Hotel Collection (THC) 福利",
     "bank": "AMEX US",
+    "cardName": "American Express® Gold Card",
     "category": "Travel",
     "description": "通过 amextravel 预订 THC 酒店，可获房型升级及 $100 酒店内消费抵扣（如餐饮、SPA）。",
     "validity": "长期有效",
@@ -691,6 +713,7 @@
   {
     "title": "万豪酒店消费奖励",
     "bank": "AMEX US",
+    "cardName": "American Express Marriott Bonvoy Bevy Card",
     "category": "Travel",
     "description": "在万豪旗下酒店消费可获得 6 倍积分返点。",
     "validity": "长期有效",
@@ -702,6 +725,7 @@
   {
     "title": "餐饮及超市消费奖励",
     "bank": "AMEX US",
+    "cardName": "American Express Marriott Bonvoy Bevy Card",
     "category": "Travel",
     "description": "在餐厅及超市消费可获得 4 倍积分返点。",
     "validity": "长期有效",
@@ -713,6 +737,7 @@
   {
     "title": "积分转航空里程",
     "bank": "AMEX US",
+    "cardName": "American Express Marriott Bonvoy Bevy Card",
     "category": "Travel",
     "description": "万豪积分可以 3:1 比例转为多家航空里程。每转 60,000 积分可额外获赠 5,000 里程奖励。",
     "validity": "长期有效",
@@ -724,6 +749,7 @@
   {
     "title": "指定商户消费积分奖励",
     "bank": "AMEX HK",
+    "cardName": "美国运通 Explorer 信用卡",
     "category": "Travel",
     "description": "在指定商户消费，每 HK$3 可赚取 1 里程（5积分）。",
     "validity": "长期有效",
@@ -735,6 +761,7 @@
   {
     "title": "外币消费积分奖励",
     "bank": "AMEX HK",
+    "cardName": "美国运通 Explorer 信用卡",
     "category": "Travel",
     "description": "外币消费每 HK$4 可赚取 1 里程（3.75积分）。",
     "validity": "长期有效",
@@ -746,6 +773,7 @@
   {
     "title": "本地消费积分奖励",
     "bank": "AMEX HK",
+    "cardName": "美国运通 Explorer 信用卡",
     "category": "Travel",
     "description": "本地消费每 HK$5 可赚取 1 里程（3积分）。",
     "validity": "长期有效",
@@ -757,6 +785,7 @@
   {
     "title": "环亚机场贵宾室服务",
     "bank": "AMEX HK",
+    "cardName": "美国运通 Explorer 信用卡",
     "category": "Travel",
     "description": "每年可免费使用 10 次环亚机场贵宾室。",
     "validity": "每年",
@@ -768,6 +797,7 @@
   {
     "title": "年费豁免优惠",
     "bank": "AMEX HK",
+    "cardName": "美国运通 Explorer 信用卡",
     "category": "AnnualFee",
     "description": "首年免年费，次年年费为 HK$1,800，满足消费条件可豁免。",
     "validity": "每年",
