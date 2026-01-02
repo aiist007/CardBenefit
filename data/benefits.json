@@ -325,18 +325,6 @@
     "id": "fe03220d-f30e-4d65-b3ac-0d35aa5532d3"
   },
   {
-    "title": "车主卡权益",
-    "bank": "平安",
-    "cardName": "万事达车主卡",
-    "category": "Vehicle",
-    "description": "平安银行羊毛最多的卡种，适合车主用户。",
-    "validity": "",
-    "value": null,
-    "usageCondition": "按需申请",
-    "terms": "",
-    "id": "560caf02-14d5-47fc-b834-191c2bc29046"
-  },
-  {
     "title": "加油充电优惠",
     "bank": "农行",
     "cardName": "车主卡畅享版",
