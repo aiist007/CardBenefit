@@ -313,18 +313,6 @@
     "id": "7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e"
   },
   {
-    "title": "加油充电优惠",
-    "bank": "农行",
-    "cardName": "车主卡畅享版",
-    "category": "Vehicle",
-    "description": "月消费满888元可领1张满200-20加油券或30-20充电券；月消费满3888元可再领1张。",
-    "validity": "每月",
-    "value": "每月至高40元",
-    "usageCondition": "月消费满888元或3888元",
-    "terms": "每达标一档领1张，每月至高2张",
-    "id": "f4f5ec7c-b036-4567-a2b0-24c7f269f2c9"
-  },
-  {
     "title": "停车优惠",
     "bank": "农行",
     "cardName": "车主卡畅享版",
