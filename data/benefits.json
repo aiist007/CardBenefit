@@ -1371,18 +1371,6 @@
     "id": "691af954-1853-4327-8bb4-6f6298445996"
   },
   {
-    "title": "大吉大利省钱包",
-    "bank": "广发",
-    "cardName": "广发大吉大利信用卡",
-    "category": "Shopping",
-    "description": "每月领最高300元省钱包。消费6500元可拿300元消费金。",
-    "validity": "每月",
-    "value": "300",
-    "usageCondition": "消费满6500元",
-    "terms": "相当于4.6%返现",
-    "id": "5e5c2bcb-8659-4a73-b490-86c3f79fa4ab"
-  },
-  {
     "title": "鼎级白金卡里程兑换",
     "bank": "广发",
     "cardName": "广发鼎级白金信用卡",
