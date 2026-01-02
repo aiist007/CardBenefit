@@ -1381,5 +1381,101 @@
     "usageCondition": "持卡人符合保险触发条件。",
     "terms": "详细权益详见上海银行信用卡中心。",
     "id": "9bde3d8e-d4e8-4035-8ccf-5e2898fe0ee2"
+  },
+  {
+    "title": "4% 网上签账回赠",
+    "bank": "汇丰",
+    "cardName": "汇丰 Red 信用卡",
+    "category": "Shopping",
+    "description": "适用于大部分网上购物，以奖赏钱 (RC) 形式发放。",
+    "validity": "",
+    "value": "4%",
+    "usageCondition": "合资格网上签账",
+    "terms": "每月首 HK$10,000 签账享 4%（最高 400 RC），超出部分按 1% 计算；部分电子钱包充值不计入。",
+    "id": "c710eb29-0a25-4416-88bb-541c9699f336"
+  },
+  {
+    "title": "2% 本地超市签账回赠",
+    "bank": "汇丰",
+    "cardName": "汇丰 Red 信用卡",
+    "category": "Shopping",
+    "description": "在本地各大超市（如百佳、惠康等）刷卡消费可获回赠。",
+    "validity": "",
+    "value": "2%",
+    "usageCondition": "本地超市签账",
+    "terms": "无最低消费要求。",
+    "id": "5a241b3b-ca02-491c-a2ff-c28390737833"
+  },
+  {
+    "title": "1% 其他本地及海外签账回赠",
+    "bank": "汇丰",
+    "cardName": "汇丰 Red 信用卡",
+    "category": "Shopping",
+    "description": "所有其他合资格的线下消费回赠。",
+    "validity": "",
+    "value": "1%",
+    "usageCondition": "线下日常消费",
+    "terms": "无最低消费要求。",
+    "id": "02d09b97-5360-444c-93cf-49f89e36abe5"
+  },
+  {
+    "title": "0.4% 缴费/特定签账回赠",
+    "bank": "汇丰",
+    "cardName": "汇丰 Red 信用卡",
+    "category": "Other",
+    "description": "通过汇丰网上理财进行的特定缴费或保险扣款。",
+    "validity": "",
+    "value": "0.4%",
+    "usageCondition": "网上理财特定缴费",
+    "terms": "仅限特定签账类别。",
+    "id": "540e3af8-1a8d-4a03-a022-5659f987af69"
+  },
+  {
+    "title": "永久免年费",
+    "bank": "汇丰",
+    "cardName": "汇丰 Red 信用卡",
+    "category": "AnnualFee",
+    "description": "持卡人永久豁免年费，无需担心消费次数或金额。",
+    "validity": "永久",
+    "value": "0",
+    "usageCondition": "持卡即享",
+    "terms": "",
+    "id": "352d67f0-7e5b-4886-bde9-df50f466e119"
+  },
+  {
+    "title": "奖赏钱账单抵扣",
+    "bank": "汇丰",
+    "cardName": "汇丰 Red 信用卡",
+    "category": "Shopping",
+    "description": "通过 HSBC Reward+ App 使用奖赏钱抵扣账单金额。",
+    "validity": "",
+    "value": "1 RC = HK$1",
+    "usageCondition": "使用 HSBC Reward+ App",
+    "terms": "",
+    "id": "a9bba744-ee8f-42a9-92e8-efc7c4c6998e"
+  },
+  {
+    "title": "奖赏钱兑换里程",
+    "bank": "汇丰",
+    "cardName": "汇丰 Red 信用卡",
+    "category": "Travel",
+    "description": "累积的奖赏钱可兑换为亚洲万里通、新航里程等。",
+    "validity": "",
+    "value": "1 RC = 10 里程",
+    "usageCondition": "手动兑换",
+    "terms": "建议配合 EveryMile 卡使用以优化兑换比例。",
+    "id": "17ec3669-33f8-45c5-98fd-811a7217f0d3"
+  },
+  {
+    "title": "商户现金兑换",
+    "bank": "汇丰",
+    "cardName": "汇丰 Red 信用卡",
+    "category": "Shopping",
+    "description": "在指定合作伙伴（如金钟廊、K11 等）直接将奖赏钱当现金使用。",
+    "validity": "",
+    "value": "现金等值",
+    "usageCondition": "指定商户消费",
+    "terms": "",
+    "id": "4263b286-8f99-488c-967e-c2c1079f195b"
   }
 ]
