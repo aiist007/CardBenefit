@@ -1429,17 +1429,5 @@
     "usageCondition": "每月8号消费",
     "terms": "每月上限20万积分",
     "id": "5da89939-c64a-42db-b611-aba1367df52e"
-  },
-  {
-    "title": "星钻卡多倍积分",
-    "bank": "广发",
-    "cardName": "广发真情卡",
-    "category": "Travel",
-    "description": "唯品会/拼多多/京东/银泰百货3倍积分；支付宝/微信1.5倍积分。",
-    "validity": "长期有效",
-    "value": null,
-    "usageCondition": "指定渠道消费",
-    "terms": "积分可叠加鼎极卡兑换",
-    "id": "16653825-cd1c-4f56-a44b-453ee2a33484"
   }
 ]
