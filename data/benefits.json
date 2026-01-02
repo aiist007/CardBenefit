@@ -1383,18 +1383,6 @@
     "id": "0db3bb76-f822-422e-8fb7-ebcc1cfbdd44"
   },
   {
-    "title": "年费政策",
-    "bank": "农行",
-    "cardName": "中国农业银行车主信用卡（尊享版）",
-    "category": "AnnualFee",
-    "description": "580元/年，通常为刚性年费，激活后首刷即扣收。",
-    "validity": "长期",
-    "value": "580",
-    "usageCondition": "激活后首刷",
-    "terms": "无豁免规则",
-    "id": "d8ca4ab8-bb2a-4d70-b892-8129094baad8"
-  },
-  {
     "title": "加油/充电满减",
     "bank": "农行",
     "cardName": "中国农业银行车主信用卡（尊享版）",
