@@ -795,18 +795,6 @@
     "id": "7e516772-702d-44d6-8479-5ff7898f5c00"
   },
   {
-    "title": "AMEX Offers 消费返现",
-    "bank": "AMEX HK",
-    "cardName": "Explorer 信用卡",
-    "category": "Shopping",
-    "description": "通过美国运通 App 推送消费返现优惠（如“消费满 HK$500 减 HK$100”等）。",
-    "validity": "经常性",
-    "value": "消费返现",
-    "usageCondition": "在 App 内点击“登记”并达到指定消费门槛",
-    "terms": "名额有限，先到先得",
-    "id": "14a7e130-bbe5-4c7e-8a2e-f26814fe81e6"
-  },
-  {
     "title": "年费豁免优惠",
     "bank": "AMEX HK",
     "cardName": "Explorer 信用卡",
