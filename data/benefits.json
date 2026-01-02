@@ -1381,5 +1381,65 @@
     "usageCondition": "旅游类消费",
     "terms": null,
     "id": "a07a6726-17b1-406f-8246-662fb1f7f108"
+  },
+  {
+    "title": "年度免费住宿奖励 (Category 1-4)",
+    "bank": "Chase",
+    "cardName": "World of Hyatt Credit Card",
+    "category": "Travel",
+    "description": "每年在持卡周年后获得一张可在全球凯悦旗下 1-4 类别酒店使用的免费住宿券。",
+    "validity": "每年",
+    "value": "200美元+",
+    "usageCondition": "持卡周年后发放",
+    "terms": "仅限 Category 1-4 酒店，有效期12个月。",
+    "id": "f2a8c1d4-3e5b-4a9f-8c7d-1b2a3c4d5e6f"
+  },
+  {
+    "title": "消费达标额外免费住宿",
+    "bank": "Chase",
+    "cardName": "World of Hyatt Credit Card",
+    "category": "Travel",
+    "description": "每个日历年消费满 $15,000 可额外获得一张 Category 1-4 免费住宿券。",
+    "validity": "每个日历年",
+    "value": "200美元+",
+    "usageCondition": "日历年内累计消费满 15,000 美元",
+    "terms": "与周年赠送的 FN 规则一致。",
+    "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
+  },
+  {
+    "title": "凯悦 Discoverist 会籍",
+    "bank": "Chase",
+    "cardName": "World of Hyatt Credit Card",
+    "category": "Travel",
+    "description": "持卡即自动获得凯悦天地 Discoverist 会员身份，享受延迟退房、客房升级等礼遇。",
+    "validity": "持卡期间",
+    "value": "Discoverist 会籍",
+    "usageCondition": "持卡即送",
+    "terms": "需关联凯悦天地会员账号。",
+    "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+  },
+  {
+    "title": "定级晚数奖励 (Tier-Qualifying Nights)",
+    "bank": "Chase",
+    "cardName": "World of Hyatt Credit Card",
+    "category": "Travel",
+    "description": "每年自动获得 5 个定级晚数；每消费 $5,000 再获 2 个定级晚数。",
+    "validity": "每年",
+    "value": "加速会籍升级",
+    "usageCondition": "自动发放及消费达标",
+    "terms": "消费获得的定级晚数无上限。",
+    "id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f"
+  },
+  {
+    "title": "多倍积分奖励",
+    "bank": "Chase",
+    "cardName": "World of Hyatt Credit Card",
+    "category": "Travel",
+    "description": "凯悦酒店消费 4x 积分；餐厅、机票、交通及健身房消费 2x 积分；其他 1x。",
+    "validity": "长期有效",
+    "value": "最高 4x 积分",
+    "usageCondition": "指定类别消费",
+    "terms": "积分可用于兑换免费住宿或转点。",
+    "id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a"
   }
 ]
