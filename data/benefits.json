@@ -325,18 +325,6 @@
     "id": "f4f5ec7c-b036-4567-a2b0-24c7f269f2c9"
   },
   {
-    "title": "1元洗车",
-    "bank": "农行",
-    "cardName": "车主卡畅享版",
-    "category": "Vehicle",
-    "description": "支付金额在41元及以内的订单，可享1元洗车。",
-    "validity": "每月1次",
-    "value": "15",
-    "usageCondition": "持卡人首刷后，通过农行APP支付",
-    "terms": "畅享版和尊享版一季度合计每天100份",
-    "id": "614f3dd3-89d7-4b88-82e0-8927b49361f3"
-  },
-  {
     "title": "1元代驾",
     "bank": "农行",
     "cardName": "车主卡畅享版",
