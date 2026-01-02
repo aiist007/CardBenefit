@@ -997,17 +997,5 @@
     "usageCondition": "每周完成5笔且每笔满18元的线上消费",
     "terms": "仅限新户，领取后7天内使用。",
     "id": "1d6970e0-cf57-4cec-a88b-905519aea13c"
-  },
-  {
-    "title": "推荐礼",
-    "bank": "平安",
-    "cardName": "平安银行瑞幸联名信用卡",
-    "category": "Other",
-    "description": "每成功推荐1位新户办卡并完成首刷，推荐人可获12张瑞幸券。",
-    "validity": "",
-    "value": "348元/人",
-    "usageCondition": "成功推荐1位新户办卡并完成首刷",
-    "terms": "最多可推荐30人，理论上限为360张券。",
-    "id": "c51dbbe2-cc17-4d9c-a989-d0ef99f68b5a"
   }
 ]
