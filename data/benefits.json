@@ -1465,17 +1465,5 @@
     "usageCondition": "持卡人符合保险触发条件。",
     "terms": "详细权益详见上海银行信用卡中心。",
     "id": "9bde3d8e-d4e8-4035-8ccf-5e2898fe0ee2"
-  },
-  {
-    "title": "金卡年费优惠",
-    "bank": "上海银行",
-    "cardName": "上海银行东航联名信用卡金卡",
-    "category": "AnnualFee",
-    "description": "年费100元/年。首年免年费，当年刷卡3笔免次年年费。",
-    "validity": "长期有效",
-    "value": "100元",
-    "usageCondition": "当年刷卡满3笔。",
-    "terms": null,
-    "id": "03836a6a-0618-467a-94af-339822ad556f"
   }
 ]
