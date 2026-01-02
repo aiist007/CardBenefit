@@ -301,18 +301,6 @@
     "id": "05344564-5bf5-4357-8954-fae367234095"
   },
   {
-    "title": "免费道路救援",
-    "bank": "农行",
-    "cardName": "农行车主信用卡",
-    "category": "Vehicle",
-    "description": "提供全国范围内的免费拖车、送油、换胎、搭电等救援服务。",
-    "validity": "持卡期间",
-    "value": "无限次",
-    "usageCondition": "车辆在道路行驶中发生故障",
-    "terms": "拖车距离限30公里以内",
-    "id": "7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e"
-  },
-  {
     "title": "停车优惠",
     "bank": "农行",
     "cardName": "车主卡畅享版",
