@@ -457,18 +457,6 @@
     "id": "ceb2fb12-6efb-414c-9042-e16b565e13aa"
   },
   {
-    "title": "年度旅行报销",
-    "bank": "US Bank",
-    "cardName": "US Bank Altitude Reserve 信用卡",
-    "category": "Travel",
-    "description": "每年有 $325 的旅行报销，订票或酒店后自动报销到账户。",
-    "validity": "每年一次",
-    "value": "325美元",
-    "usageCondition": "旅行相关消费",
-    "terms": null,
-    "id": "d6a036e1-09b8-4dc0-8a21-31655aa2806d"
-  },
-  {
     "title": "开卡奖励",
     "bank": "US Bank",
     "cardName": "US Bank Altitude Reserve 信用卡",
