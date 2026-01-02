@@ -627,18 +627,6 @@
     "id": "54b58994-9755-4b34-a3bc-5945123eef80"
   },
   {
-    "title": "开卡奖励",
-    "bank": "AMEX HK",
-    "cardName": "AMEX Gold Card",
-    "category": "Other",
-    "description": "新开卡用户在六个月内消费满 $4,000 可获得 60k-100k Membership Rewards 积分。",
-    "validity": "2025-09-20更新",
-    "value": "60k-100k MR积分",
-    "usageCondition": "六个月内消费满 $4,000",
-    "terms": "最高100k奖励取决于申请者信用情况；AMEX开卡奖励通常一生一次。",
-    "id": "8c6ff9f0-dc52-400e-871c-9400c5db2d91"
-  },
-  {
     "title": "Uber Credit",
     "bank": "AMEX HK",
     "cardName": "AMEX Gold Card",
