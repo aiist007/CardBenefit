@@ -155,17 +155,5 @@
     "usageCondition": "单次行驶距离在30公里以内",
     "terms": "部分地区权益规则可能微调，建议通过建行生活APP确认",
     "id": "7e86f893-d033-4a85-a7bd-a69504160c08"
-  },
-  {
-    "title": "航空延误险",
-    "bank": "建行",
-    "cardName": "建行家庭挚爱",
-    "category": "Insurance",
-    "description": "每延误4小时赔付200元。",
-    "validity": "每年",
-    "value": "最高2000元/年",
-    "usageCondition": "航班延误达4小时",
-    "terms": "每自然年赔付上限为2000元",
-    "id": "5a80c887-1870-4a14-86a5-5510aa213420"
   }
 ]
