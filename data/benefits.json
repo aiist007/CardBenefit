@@ -721,17 +721,5 @@
     "usageCondition": "连续预订两晚以上",
     "terms": "房型升级视酒店供应情况而定。",
     "id": "efd8c90a-e6c2-4da6-89b9-6dafd727f441"
-  },
-  {
-    "title": "延长保修",
-    "bank": "AMEX HK",
-    "cardName": "AMEX Gold Card",
-    "category": "Insurance",
-    "description": "使用该卡全款购买的商品，厂家保修期自动延长一年。",
-    "validity": "长期有效",
-    "value": "延长一年保修",
-    "usageCondition": "全款购买商品",
-    "terms": "需符合保险细则。",
-    "id": "31b57e64-662b-4ae6-a476-d1ec0f3f1812"
   }
 ]
