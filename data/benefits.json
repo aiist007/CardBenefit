@@ -151,8 +151,8 @@
     "category": "Vehicle",
     "description": "50公里以内的免费代驾服务。",
     "validity": "每年",
-    "value": "6次/年",
-    "usageCondition": "单次行驶距离在50公里以内",
+    "value": "4次/年",
+    "usageCondition": "单次行驶距离在30公里以内",
     "terms": "部分地区权益规则可能微调，建议通过建行生活APP确认",
     "id": "7e86f893-d033-4a85-a7bd-a69504160c08"
   },
