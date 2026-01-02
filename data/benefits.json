@@ -1009,17 +1009,5 @@
     "usageCondition": "成功推荐1位新户办卡并完成首刷",
     "terms": "最多可推荐30人，理论上限为360张券。",
     "id": "c51dbbe2-cc17-4d9c-a989-d0ef99f68b5a"
-  },
-  {
-    "title": "运通餐饮优惠",
-    "bank": "平安",
-    "cardName": "平安银行瑞幸联名信用卡",
-    "category": "Dining",
-    "description": "指定星级酒店自助餐“两人同行一人免单”（买一赠一），以及下午茶5折。",
-    "validity": "",
-    "value": "买一赠一",
-    "usageCondition": "通过“美国运通卡礼遇”小程序查询参与商户并使用",
-    "terms": "美国运通“SELECT”级别卡片专属权益",
-    "id": "0980fb06-16e3-4f75-b0f5-500d9f68de4f"
   }
 ]
