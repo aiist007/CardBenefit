@@ -1453,5 +1453,65 @@
     "usageCondition": "手动兑换",
     "terms": "建议配合 EveryMile 卡使用以优化兑换比例。",
     "id": "17ec3669-33f8-45c5-98fd-811a7217f0d3"
+  },
+  {
+    "title": "极高里程兑换比例及积分回赠",
+    "bank": "汇丰",
+    "cardName": "汇丰 EveryMile 信用卡 (HSBC EveryMile Credit Card)",
+    "category": "Travel",
+    "description": "以奖赏钱 (RC) 形式发放回赠，兑换里程比例为 1 RC = 20 里程，优于普通汇丰卡的 1:10。支持 15+ 间航司及酒店集团（如亚洲万里通、新航、英航、万豪、希尔顿等）。该卡可作为“里程中转站”，将同名下其他汇丰卡（如 Red 卡、Pulse 卡）赚取的 RC 同样按 1:20 比例兑换。",
+    "validity": null,
+    "value": "HK$2 = 1 里程 (2.5% 回赠)",
+    "usageCondition": "指定日常消费（外卖平台、Uber、九巴/龙运、隧道费、星巴克、指定超市、Netflix/Spotify/Disney+ 等）享 HK$2/里程；本地及海外消费享 HK$5/里程 (1% 回赠)。",
+    "terms": "兑换比例为汇丰全系最高。",
+    "id": "8d3c276c-e4a1-4d49-b9c9-03b43f626ebe"
+  },
+  {
+    "title": "机场贵宾厅服务",
+    "bank": "汇丰",
+    "cardName": "汇丰 EveryMile 信用卡 (HSBC EveryMile Credit Card)",
+    "category": "Travel",
+    "description": "持卡人每年可免费使用全球指定机场贵宾室，涵盖环亚机场贵宾室 (Plaza Premium Lounge) 及通过 LoungeKey 提供的贵宾厅。",
+    "validity": "每年",
+    "value": "6次/年",
+    "usageCondition": "持卡人本人使用。",
+    "terms": "每年限 6 次免费服务。",
+    "id": "b114b630-c095-4983-a536-d0a163ba67f6"
+  },
+  {
+    "title": "免费旅游保险",
+    "bank": "汇丰",
+    "cardName": "汇丰 EveryMile 信用卡 (HSBC EveryMile Credit Card)",
+    "category": "Insurance",
+    "description": "全方位旅游保障，涵盖医疗费用、旅程延误、行李丢失等。保障范围包括持卡人及其配偶、受养子女。",
+    "validity": null,
+    "value": "200",
+    "usageCondition": "使用 EveryMile 卡支付交通、住宿或旅游套票的全额费用。",
+    "terms": "需全额支付相关旅游费用。",
+    "id": "6df840f1-47d6-4ec5-a3f3-6acb01314454"
+  },
+  {
+    "title": "Agoda 订房折扣",
+    "bank": "汇丰",
+    "cardName": "汇丰 EveryMile 信用卡 (HSBC EveryMile Credit Card)",
+    "category": "Travel",
+    "description": "与 Agoda 合作提供专属订房优惠。",
+    "validity": null,
+    "value": "15% OFF",
+    "usageCondition": "通过指定链接或方式使用 EveryMile 卡预订。",
+    "terms": "具体折扣比例以活动页面为准。",
+    "id": "e50d9954-f178-44d8-864d-d7b9e0ac3d47"
+  },
+  {
+    "title": "年费及豁免规则",
+    "bank": "汇丰",
+    "cardName": "汇丰 EveryMile 信用卡 (HSBC EveryMile Credit Card)",
+    "category": "AnnualFee",
+    "description": "首年免年费，次年年费为 HK$2,000。",
+    "validity": null,
+    "value": "-2000",
+    "usageCondition": "每年签账满 HK$80,000 即可豁免次年年费。",
+    "terms": "首年自动豁免。",
+    "id": "94d94536-e85c-4efc-90f4-f4359aacf42b"
   }
 ]
