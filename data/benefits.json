@@ -457,18 +457,6 @@
     "id": "ceb2fb12-6efb-414c-9042-e16b565e13aa"
   },
   {
-    "title": "多倍积分返点",
-    "bank": "AMEX HK",
-    "cardName": "AMEX Everyday Preferred 信用卡",
-    "category": "Shopping",
-    "description": "超市消费 4.5x，加油 3x，其他消费 1.5x（需每月消费 30 笔以上）；若不满 30 笔，则分别为 3x, 2x, 1x。",
-    "validity": "长期有效",
-    "value": "最高4.5x积分",
-    "usageCondition": "每月消费需达到30笔以上可获得最高倍数",
-    "terms": "超市类别有消费上限",
-    "id": "78dbe9a5-43f9-4eab-8212-5b7d23509e83"
-  },
-  {
     "title": "旅行报销",
     "bank": "Chase",
     "cardName": "Chase Sapphire Reserve",
