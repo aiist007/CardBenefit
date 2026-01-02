@@ -457,18 +457,6 @@
     "id": "ceb2fb12-6efb-414c-9042-e16b565e13aa"
   },
   {
-    "title": "TSA PreCheck 或 Global Entry 报销",
-    "bank": "Chase",
-    "cardName": "Chase Ritz-Carlton",
-    "category": "Travel",
-    "description": "每四年提供一次 TSA PreCheck 或 Global Entry 的申请费报销。",
-    "validity": "每四年一次",
-    "value": "100美元",
-    "usageCondition": "使用该卡支付申请费",
-    "terms": null,
-    "id": "7b7b845e-9b5e-4ce1-8ac0-2157af9f3d7b"
-  },
-  {
     "title": "免境外交易手续费",
     "bank": "Chase",
     "cardName": "Chase Ritz-Carlton",
