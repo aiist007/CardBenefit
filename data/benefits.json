@@ -517,18 +517,6 @@
     "id": "a51eb4e4-0f1f-450b-951a-c67fc0000715"
   },
   {
-    "title": "接送机服务",
-    "bank": "农行",
-    "cardName": "建行家庭挚爱",
-    "category": "Travel",
-    "description": "可用积分兑换接送机服务。",
-    "validity": "长期",
-    "value": "90",
-    "usageCondition": "积分兑换",
-    "terms": null,
-    "id": "2bb9dc91-5d32-4911-bce6-9759a746b14b"
-  },
-  {
     "title": "年费优惠政策",
     "bank": "农行",
     "cardName": "建行家庭挚爱",
