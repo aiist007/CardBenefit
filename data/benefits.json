@@ -771,18 +771,6 @@
     "id": "57852be6-d02e-4d19-9517-1296bcd6f32a"
   },
   {
-    "title": "入住额外积分奖励",
-    "bank": "AMEX US",
-    "cardName": "AMEX Marriott Bonvoy Bevy",
-    "category": "Travel",
-    "description": "每次入住万豪旗下酒店可自动获取 1,000 万豪积分。",
-    "validity": "长期有效",
-    "value": "1000 积分",
-    "usageCondition": "每次入住万豪酒店",
-    "terms": "",
-    "id": "ea7ec3dd-fff8-4698-970c-21200c3e2277"
-  },
-  {
     "title": "积分转航空里程",
     "bank": "AMEX US",
     "cardName": "AMEX Marriott Bonvoy Bevy",
