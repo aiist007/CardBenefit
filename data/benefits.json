@@ -711,18 +711,6 @@
     "id": "efd8c90a-e6c2-4da6-89b9-6dafd727f441"
   },
   {
-    "title": "开卡奖励",
-    "bank": "AMEX US",
-    "cardName": "AMEX Marriott Bonvoy Bevy",
-    "category": "Other",
-    "description": "前 6 个月内消费满 $5,000 可获得 155,000 Marriott 积分。",
-    "validity": "2025-09-24 过期",
-    "value": "155k 积分",
-    "usageCondition": "前 6 个月消费满 $5,000",
-    "terms": "曾获得过此卡或特定时间内持有过 Chase Marriott 系列卡者可能不适用；开卡奖励每人限一次。",
-    "id": "a97785c7-e53a-4711-8697-1b37c7c87c72"
-  },
-  {
     "title": "万豪酒店消费奖励",
     "bank": "AMEX US",
     "cardName": "AMEX Marriott Bonvoy Bevy",
