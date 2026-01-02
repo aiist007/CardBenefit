@@ -395,17 +395,5 @@
     "usageCondition": "当月银联任意消费2笔。",
     "terms": "次月获得2次洗车资格。",
     "id": "04a4753e-fc99-4edb-8ebf-a02d1a9430fc"
-  },
-  {
-    "title": "豪华白金卡加油满减 (200-100)",
-    "bank": "民生",
-    "cardName": "白金卡",
-    "category": "Vehicle",
-    "description": "民生车车豪华白金卡持卡人每月可享受2次200-100加油优惠。",
-    "validity": "2026-01-01至2026-12-31",
-    "value": "100元加油金",
-    "usageCondition": "不需要消费即可直接参与。",
-    "terms": "每月限2次。",
-    "id": "ca73f7fd-fe9c-4ef0-b9f7-c09b1405ad54"
   }
 ]
