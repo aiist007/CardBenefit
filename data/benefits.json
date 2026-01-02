@@ -1563,18 +1563,6 @@
     "id": "152960e1-b02a-46b9-ab6e-0c5bdbdb2709"
   },
   {
-    "title": "Lyft 消费奖励",
-    "bank": "汇丰美国",
-    "cardName": "汇丰美国卓越理财尊尚信用卡 (World Elite)",
-    "category": "Lifestyle",
-    "description": "每月完成 3 次行程送 $5 抵用券。",
-    "validity": "每月",
-    "value": "5美元",
-    "usageCondition": "每月完成3次Lyft行程",
-    "terms": null,
-    "id": "43fe96a7-84d6-4867-98e8-72fd2959b1e6"
-  },
-  {
     "title": "EveryMile 联动里程兑换",
     "bank": "汇丰香港",
     "cardName": "汇丰香港 EveryMile 信用卡",
