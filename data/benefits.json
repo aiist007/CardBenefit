@@ -949,17 +949,5 @@
     "usageCondition": "",
     "terms": "",
     "id": "e7102c6a-782f-429d-a2ac-afc4a15176d1"
-  },
-  {
-    "title": "年费优惠",
-    "bank": "平安",
-    "cardName": "平安银行瑞幸联名信用卡",
-    "category": "AnnualFee",
-    "description": "主卡300元/年。首年直接免年费，次年消费满6笔（无金额限制）即可免年费。",
-    "validity": "长期",
-    "value": "300元",
-    "usageCondition": "次年消费满6笔",
-    "terms": "零成本持有，入门级卡片",
-    "id": "7341c437-86a2-404d-b7d5-5f96da630b64"
   }
 ]
