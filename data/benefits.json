@@ -301,18 +301,6 @@
     "id": "05344564-5bf5-4357-8954-fae367234095"
   },
   {
-    "title": "1元洗车服务",
-    "bank": "农行",
-    "cardName": "农行车主信用卡",
-    "category": "Vehicle",
-    "description": "满足月度消费条件，可以1元优惠价享受专业洗车服务。",
-    "validity": "每月更新",
-    "value": "1元洗车",
-    "usageCondition": "上月消费满3笔且累计满2000元",
-    "terms": "每月限1次，需在指定合作网点使用",
-    "id": "6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d"
-  },
-  {
     "title": "免费道路救援",
     "bank": "农行",
     "cardName": "农行车主信用卡",
