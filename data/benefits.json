@@ -1237,17 +1237,5 @@
     "usageCondition": "指定第三方支付渠道消费",
     "terms": "梦积金有效期6个月",
     "id": "0e8580a4-aff1-41e9-8b98-624a9292cb52"
-  },
-  {
-    "title": "梦积金兑换礼品",
-    "bank": "华夏",
-    "cardName": "华夏银行KPL王者联名信用卡",
-    "category": "Shopping",
-    "description": "每月任意交易满10笔，次月可使用梦积金兑换指定礼品。",
-    "validity": "长期有效",
-    "value": "100",
-    "usageCondition": "单月满10笔交易，次月兑换",
-    "terms": "单月兑换上限100 梦积金",
-    "id": "abbf2893-a822-40be-82a0-d76061ef8c4c"
   }
 ]
