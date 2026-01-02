@@ -1431,18 +1431,6 @@
     "id": "4ade9aa7-7f6e-4554-910d-dc9153931330"
   },
   {
-    "title": "奖赏钱 (RC) 回赠系统",
-    "bank": "汇丰香港",
-    "cardName": "汇丰香港卓越理财信用卡 (Mastercard)",
-    "category": "Shopping",
-    "description": "基本回赠 0.4%（每消费 HK$250 = $1 RC）。结合“最红自主奖赏”，在指定类别（如赏滋味、赏世界）消费可获高达 2.4% 回赠。",
-    "validity": null,
-    "value": "2.4%回赠",
-    "usageCondition": "指定类别消费并结合最红自主奖赏",
-    "terms": "基本回赠为0.4%",
-    "id": "23d77985-0aa7-40cf-b69e-7d4d3cd57835"
-  },
-  {
     "title": "积分回赠",
     "bank": "汇丰美国",
     "cardName": "汇丰美国卓越理财信用卡",
