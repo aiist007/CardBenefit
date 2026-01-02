@@ -1441,5 +1441,101 @@
     "usageCondition": "首刷后激活",
     "terms": "全年限6次，通过农行APP调用。",
     "id": "a57170d7-0d93-46d4-ac35-a342d4e9a1bc"
+  },
+  {
+    "title": "双卡申领至高积分奖励",
+    "bank": "上海银行",
+    "cardName": "上海银行东航联名信用卡及借记卡",
+    "category": "Travel",
+    "description": "同时申领东航上海银行联名借记卡与信用卡并参加所有活动，至高可赢取11,600点“东方万里行”积分。",
+    "validity": "即日起-2025年11月30日",
+    "value": "11600点积分",
+    "usageCondition": "同时申领两种联名卡并完成指定任务。",
+    "terms": "名额有限，先到先得。",
+    "id": "0b0fb82d-54a2-462a-8224-47d123de70b0"
+  },
+  {
+    "title": "信用卡新户办卡礼",
+    "bank": "上海银行",
+    "cardName": "上海银行东航联名信用卡",
+    "category": "Travel",
+    "description": "新户办理东航上海银行联名信用卡并完成指定任务，至高获得7,000点“东方万里行”积分。",
+    "validity": "即日起-2025年12月31日",
+    "value": "7000点积分",
+    "usageCondition": "新户完成指定任务。",
+    "terms": "名额有限，先到先得，领完即止。",
+    "id": "caf190f1-67bb-4d41-a14a-2d60f94f6505"
+  },
+  {
+    "title": "白金卡（精致版）年费优惠",
+    "bank": "上海银行",
+    "cardName": "白金卡",
+    "category": "AnnualFee",
+    "description": "年费588元/年。首年核卡90天内消费满3000元免年费，次年起每年消费满12笔或金额满3万元即可减免年费。",
+    "validity": "长期有效",
+    "value": "588元",
+    "usageCondition": "首年90天内消费满3000元；次年消费满12笔或3万元。",
+    "terms": null,
+    "id": "5b63d7e5-4360-4d64-8fb1-238d1eef8648"
+  },
+  {
+    "title": "白金卡里程兑换权益",
+    "bank": "上海银行",
+    "cardName": "白金卡",
+    "category": "Travel",
+    "description": "每消费人民币12元即可兑换1点“东方万里行”积分。享消费积分永久有效，免费账单短信提示等服务。",
+    "validity": "长期有效",
+    "value": "12:1兑换比例",
+    "usageCondition": "持卡消费。",
+    "terms": "积分永久有效。",
+    "id": "354a3636-a908-4442-b1d0-30065974da0e"
+  },
+  {
+    "title": "白金卡航班延误险",
+    "bank": "上海银行",
+    "cardName": "白金卡",
+    "category": "Travel",
+    "description": "持卡人可享受航班延误险保障。",
+    "validity": "长期有效",
+    "value": null,
+    "usageCondition": "持卡人符合保险触发条件。",
+    "terms": "详细权益详见上海银行信用卡中心。",
+    "id": "9bde3d8e-d4e8-4035-8ccf-5e2898fe0ee2"
+  },
+  {
+    "title": "金卡年费优惠",
+    "bank": "上海银行",
+    "cardName": "上海银行东航联名信用卡金卡",
+    "category": "AnnualFee",
+    "description": "年费100元/年。首年免年费，当年刷卡3笔免次年年费。",
+    "validity": "长期有效",
+    "value": "100元",
+    "usageCondition": "当年刷卡满3笔。",
+    "terms": null,
+    "id": "03836a6a-0618-467a-94af-339822ad556f"
+  },
+  {
+    "title": "金卡里程兑换权益",
+    "bank": "上海银行",
+    "cardName": "上海银行东航联名信用卡金卡",
+    "category": "Travel",
+    "description": "每消费人民币15元即可兑换1点“东方万里行”积分。享消费积分永久有效，免费账单短信提示等服务。",
+    "validity": "长期有效",
+    "value": "15:1兑换比例",
+    "usageCondition": "持卡消费。",
+    "terms": "积分永久有效。",
+    "id": "c4d5da37-96ad-4b7e-bf58-7756f7a8d7c0"
+  },
+  {
+    "title": "联名借记卡新户福利",
+    "bank": "上海银行",
+    "cardName": "上海银行东航联名借记卡",
+    "category": "Travel",
+    "description": "新户办理东航上海银行联名借记卡并完成指定任务，至高获得4,600点“东方万里行”积分。",
+    "validity": "即日起-2025年11月30日",
+    "value": "4600点积分",
+    "usageCondition": "新户完成指定资产管理或指定任务。",
+    "terms": "名额有限，先到先得。",
+    "id": "d2de8513-b17a-418f-9d52-cfdcfc23d52a"
   }
 ]
