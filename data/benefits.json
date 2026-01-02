@@ -1323,18 +1323,6 @@
     "id": "4d2fe865-7220-4f05-870e-272c1cb6ef01"
   },
   {
-    "title": "车主版额外返现",
-    "bank": "广发",
-    "cardName": "广发华为联名白金信用卡",
-    "category": "Vehicle",
-    "description": "升级为车主版，单月最高额外返50元。",
-    "validity": "每月",
-    "value": "50",
-    "usageCondition": "车主版卡片",
-    "terms": null,
-    "id": "8b2a66fb-d3d4-4c21-a58d-5e02d991c1ea"
-  },
-  {
     "title": "鼎级白金卡里程兑换",
     "bank": "广发",
     "cardName": "广发鼎级白金信用卡",
