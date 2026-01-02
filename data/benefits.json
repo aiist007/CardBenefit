@@ -1443,18 +1443,6 @@
     "id": "352d67f0-7e5b-4886-bde9-df50f466e119"
   },
   {
-    "title": "奖赏钱兑换里程",
-    "bank": "汇丰",
-    "cardName": "汇丰 Red 信用卡",
-    "category": "Travel",
-    "description": "累积的奖赏钱可兑换为亚洲万里通、新航里程等。",
-    "validity": "",
-    "value": "1 RC = 10 里程",
-    "usageCondition": "手动兑换",
-    "terms": "建议配合 EveryMile 卡使用以优化兑换比例。",
-    "id": "17ec3669-33f8-45c5-98fd-811a7217f0d3"
-  },
-  {
     "title": "极高里程兑换比例及积分回赠",
     "bank": "汇丰",
     "cardName": "汇丰 EveryMile 信用卡 (HSBC EveryMile Credit Card)",
