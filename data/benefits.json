@@ -457,18 +457,6 @@
     "id": "ceb2fb12-6efb-414c-9042-e16b565e13aa"
   },
   {
-    "title": "开卡奖励",
-    "bank": "US Bank",
-    "cardName": "US Bank Altitude Reserve 信用卡",
-    "category": "Other",
-    "description": "三个月内消费满 $4,500 可获得 50,000 积分。",
-    "validity": "开卡后3个月内",
-    "value": "50,000积分",
-    "usageCondition": "三个月内消费满 $4,500",
-    "terms": "估值约 $750",
-    "id": "df689c21-dcb0-49aa-8494-fcc998494b98"
-  },
-  {
     "title": "移动支付高倍返点",
     "bank": "US Bank",
     "cardName": "US Bank Altitude Reserve 信用卡",
