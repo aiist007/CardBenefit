@@ -783,18 +783,6 @@
     "id": "5445739e-3af1-4b25-9d93-e8adaba1361f"
   },
   {
-    "title": "旅行预订返现",
-    "bank": "Robinhood",
-    "cardName": "Robinhood Gold 信用卡",
-    "category": "Travel",
-    "description": "在 Robinhood Travel 平台上订购旅行消费可获得 5% 返现。",
-    "validity": "长期有效",
-    "value": "5% 返现",
-    "usageCondition": "通过自家旅行网预定",
-    "terms": "必须持有 Robinhood Gold 会员。",
-    "id": "f60a62dd-131d-47c4-90d7-6f2037aeefb7"
-  },
-  {
     "title": "航空报销",
     "bank": "AMEX HK",
     "cardName": "AMEX Gold Card",
