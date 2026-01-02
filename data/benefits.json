@@ -747,18 +747,6 @@
     "id": "3b7b76ba-57c6-421a-8092-c1fd21436eea"
   },
   {
-    "title": "积分永久有效",
-    "bank": "AMEX HK",
-    "cardName": "Explorer 信用卡",
-    "category": "Other",
-    "description": "赚取的美国运通积分（Membership Rewards）没有过期时间。",
-    "validity": "长期有效",
-    "value": "积分永久有效",
-    "usageCondition": "持卡消费赚取积分",
-    "terms": "无",
-    "id": "66ca73c3-983e-4486-8047-d6899eb21e7e"
-  },
-  {
     "title": "指定商户消费积分奖励",
     "bank": "AMEX HK",
     "cardName": "Explorer 信用卡",
