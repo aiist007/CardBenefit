@@ -1335,18 +1335,6 @@
     "id": "8b2a66fb-d3d4-4c21-a58d-5e02d991c1ea"
   },
   {
-    "title": "车主增值服务",
-    "bank": "广发",
-    "cardName": "广发车主信用卡",
-    "category": "Vehicle",
-    "description": "达标享免费洗车、1年期100公里道路救援、1年高额意外险。",
-    "validity": "每年",
-    "value": "200",
-    "usageCondition": "消费达标",
-    "terms": "洗车需月月达标",
-    "id": "9830be1e-0da3-431c-b02c-260bd178d7b8"
-  },
-  {
     "title": "鼎级白金卡里程兑换",
     "bank": "广发",
     "cardName": "广发鼎级白金信用卡",
