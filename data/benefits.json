@@ -805,17 +805,5 @@
     "usageCondition": "积分兑换",
     "terms": "转至 UA 里程时有额外 10% 奖励。",
     "id": "3b7b76ba-57c6-421a-8092-c1fd21436eea"
-  },
-  {
-    "title": "其他消费返点",
-    "bank": "AMEX US",
-    "cardName": "AMEX Marriott Bonvoy Bevy",
-    "category": "Other",
-    "description": "除特定类别外的所有其他消费可获得 2 倍积分返点。",
-    "validity": "长期有效",
-    "value": "2x 积分",
-    "usageCondition": "普通消费",
-    "terms": "",
-    "id": "d4fec0c1-d78a-4982-94e7-b5749f31e120"
   }
 ]
