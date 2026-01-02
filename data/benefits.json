@@ -937,5 +937,113 @@
     "usageCondition": "",
     "terms": "",
     "id": "ba088542-1e90-4d0f-8d32-eab096b3fa05"
+  },
+  {
+    "title": "年费优惠政策",
+    "bank": "华夏",
+    "cardName": "华夏银行美国运通 Safari 信用卡",
+    "category": "AnnualFee",
+    "description": "标准年费2000元/年。首年及次年均支持使用20万积分抵扣年费。",
+    "validity": "持卡期间",
+    "value": "2000",
+    "usageCondition": "使用20万积分兑换",
+    "terms": "部分新客户活动可能通过消费达标免首年；建议通过倍数积分活动累积积分。",
+    "id": "929f8a3b-166a-4904-8bf3-b6dd1a65e485"
+  },
+  {
+    "title": "机场/高铁贵宾厅",
+    "bank": "华夏",
+    "cardName": "华夏银行美国运通 Safari 信用卡",
+    "category": "Travel",
+    "description": "免费龙腾贵宾厅服务，涵盖全球机场及高铁。",
+    "validity": "每自然年",
+    "value": "5次",
+    "usageCondition": "持卡即可",
+    "terms": "每自然年限5次。",
+    "id": "f02ebd76-007a-4bcc-9947-79fdc344af7f"
+  },
+  {
+    "title": "境内机场接送机",
+    "bank": "华夏",
+    "cardName": "华夏银行美国运通 Safari 信用卡",
+    "category": "Travel",
+    "description": "境内指定机场免费豪华车接送服务。",
+    "validity": "每自然年",
+    "value": "180",
+    "usageCondition": "持卡即可",
+    "terms": "每自然年限2次。",
+    "id": "087f659c-c522-42a1-8061-45736a06d03b"
+  },
+  {
+    "title": "酒后代驾",
+    "bank": "华夏",
+    "cardName": "华夏银行美国运通 Safari 信用卡",
+    "category": "Vehicle",
+    "description": "50公里以内免费代驾服务。",
+    "validity": "每自然年",
+    "value": "50",
+    "usageCondition": "持卡即可",
+    "terms": "每自然年限1次。",
+    "id": "50d7fc4d-d8eb-4a73-82e4-309ac6a0b2a0"
+  },
+  {
+    "title": "航空延误险",
+    "bank": "华夏",
+    "cardName": "华夏银行美国运通 Safari 信用卡",
+    "category": "Insurance",
+    "description": "每延误4小时最高赔付1000元。",
+    "validity": "持卡期间",
+    "value": "1000",
+    "usageCondition": "需使用该卡支付全额机票款或80%以上团费",
+    "terms": "延误需达4小时。",
+    "id": "94cf3543-55d6-47ef-9940-58c38067f44f"
+  },
+  {
+    "title": "优惠价入住高端酒店",
+    "bank": "华夏",
+    "cardName": "华夏银行美国运通 Safari 信用卡",
+    "category": "Travel",
+    "description": "以300元、500元或800元优惠价格预约入住指定高端酒店。",
+    "validity": "每自然年",
+    "value": "2间夜",
+    "usageCondition": "通过“美国运通卡礼遇”小程序预约",
+    "terms": "名额每日限量，建议尽早预约。",
+    "id": "c2b25890-ca36-4ffb-aa38-6e8ad4c9f4f0"
+  },
+  {
+    "title": "星级酒店餐饮礼遇",
+    "bank": "华夏",
+    "cardName": "华夏银行美国运通 Safari 信用卡",
+    "category": "Dining",
+    "description": "享受运通平台的“二人同行一人半价”或指定餐厅折扣。",
+    "validity": "持卡期间",
+    "value": "50%回赠",
+    "usageCondition": "运通平台指定餐厅",
+    "terms": "需通过运通平台预约。",
+    "id": "f1b1059a-0ec7-487d-9644-9513cb7ca0e3"
+  },
+  {
+    "title": "专业洁牙服务",
+    "bank": "华夏",
+    "cardName": "华夏银行美国运通 Safari 信用卡",
+    "category": "Health",
+    "description": "免费专业洁牙服务。",
+    "validity": "每自然年",
+    "value": "100",
+    "usageCondition": "持卡即可",
+    "terms": "每自然年限1次。",
+    "id": "4ee15227-16b4-463a-903b-428fffc16f39"
+  },
+  {
+    "title": "高端医疗预约",
+    "bank": "华夏",
+    "cardName": "华夏银行美国运通 Safari 信用卡",
+    "category": "Health",
+    "description": "可享受运通提供的部分高端医疗机构预约通道及折扣。",
+    "validity": "持卡期间",
+    "value": null,
+    "usageCondition": "运通平台预约",
+    "terms": "仅限指定医疗机构。",
+    "id": "1e01b0ef-5dc1-4e9c-8a55-aa1bfebf9581"
   }
 ]
