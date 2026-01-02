@@ -805,17 +805,5 @@
     "usageCondition": "航空相关消费",
     "terms": "",
     "id": "ed90316f-c2d6-4585-b61e-d11e7b0fbbcb"
-  },
-  {
-    "title": "$100股票现金券",
-    "bank": "Moomoo",
-    "cardName": "全量信用卡",
-    "category": "Other",
-    "description": "Moomoo独家新客豪礼，入金任意金额即可获得$100股票现金券。",
-    "validity": "至2025-12-31",
-    "value": "$100股票现金券",
-    "usageCondition": "新客入金任意金额",
-    "terms": "适用于新用户，附加条款和条件适用",
-    "id": "fdaba318-580e-49c9-84f6-96f855343e09"
   }
 ]
