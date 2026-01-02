@@ -299,5 +299,53 @@
     "usageCondition": "每月微信支付3笔168元或月累计消费达9999元。",
     "terms": "每月返还125元。",
     "id": "05344564-5bf5-4357-8954-fae367234095"
+  },
+  {
+    "title": "加油返现优惠",
+    "bank": "农行",
+    "cardName": "农行车主信用卡",
+    "category": "Vehicle",
+    "description": "在指定加油站消费可享返现优惠，需通过农行掌银APP领取资格。",
+    "validity": "长期有效",
+    "value": "最高10%返现",
+    "usageCondition": "每月消费达标后领取资格",
+    "terms": "每月返现上限50-100元，视具体活动而定",
+    "id": "5f8e92a1-3b4c-4d5e-8f9a-0b1c2d3e4f5a"
+  },
+  {
+    "title": "1元洗车服务",
+    "bank": "农行",
+    "cardName": "农行车主信用卡",
+    "category": "Vehicle",
+    "description": "满足月度消费条件，可以1元优惠价享受专业洗车服务。",
+    "validity": "每月更新",
+    "value": "1元洗车",
+    "usageCondition": "上月消费满3笔且累计满2000元",
+    "terms": "每月限1次，需在指定合作网点使用",
+    "id": "6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d"
+  },
+  {
+    "title": "免费道路救援",
+    "bank": "农行",
+    "cardName": "农行车主信用卡",
+    "category": "Vehicle",
+    "description": "提供全国范围内的免费拖车、送油、换胎、搭电等救援服务。",
+    "validity": "持卡期间",
+    "value": "无限次",
+    "usageCondition": "车辆在道路行驶中发生故障",
+    "terms": "拖车距离限30公里以内",
+    "id": "7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e"
+  },
+  {
+    "title": "ETC通行费折扣",
+    "bank": "农行",
+    "cardName": "农行车主信用卡",
+    "category": "Vehicle",
+    "description": "绑定ETC扣款，可享受通行费折扣优惠。",
+    "validity": "长期有效",
+    "value": "9折或95折",
+    "usageCondition": "使用农行车主卡绑定ETC自动扣费",
+    "terms": "优惠比例及上限视各省市农行政策而定",
+    "id": "8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f"
   }
 ]
