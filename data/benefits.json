@@ -1191,18 +1191,6 @@
     "id": "2351dfcb-eace-43c8-b1ee-6b83b4d8b380"
   },
   {
-    "title": "闪付随机立减",
-    "bank": "华夏",
-    "cardName": "华夏银行优享白金信用卡",
-    "category": "Shopping",
-    "description": "闪付支付满30元即可享受随机立减。",
-    "validity": "至2025年12月31日",
-    "value": "随机",
-    "usageCondition": "每日限享一次，满30元使用",
-    "terms": "限闪付渠道",
-    "id": "0002f7d0-ce32-4dd0-8f5f-0b5aa5dd90f1"
-  },
-  {
     "title": "UP白金卡消费返现",
     "bank": "华夏",
     "cardName": "华夏银行UP白金卡",
