@@ -1081,17 +1081,5 @@
     "usageCondition": "消费累计积分",
     "terms": "享受笔笔优惠10%的福利",
     "id": "5eb84e21-28c8-4909-b270-a464505a8548"
-  },
-  {
-    "title": "全民消费券",
-    "bank": "平安",
-    "cardName": "平安银行信用卡",
-    "category": "Shopping",
-    "description": "年底平安信用卡推出的消费券回馈活动。",
-    "validity": "年底",
-    "value": "",
-    "usageCondition": "日常消费或年底购物",
-    "terms": "",
-    "id": "3dedd0dd-3fb8-4b5d-8f61-53a548d80443"
   }
 ]
