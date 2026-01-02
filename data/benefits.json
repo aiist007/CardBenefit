@@ -1429,17 +1429,5 @@
     "usageCondition": "旅游类消费",
     "terms": null,
     "id": "a07a6726-17b1-406f-8246-662fb1f7f108"
-  },
-  {
-    "title": "EveryMile 联动里程兑换",
-    "bank": "汇丰香港",
-    "cardName": "汇丰香港 EveryMile 信用卡",
-    "category": "Travel",
-    "description": "可以将香港 Premier 卡赚取的 RC 转入 EveryMile，以 HK$2 = 1 里程的极高比例兑换。",
-    "validity": null,
-    "value": "HK$2 = 1里程",
-    "usageCondition": "跨卡转入RC",
-    "terms": "需同时持有香港 Premier 卡与 EveryMile 卡",
-    "id": "73f76a3f-02d0-4777-8df5-25dbd91acdf1"
   }
 ]
