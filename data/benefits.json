@@ -1,1 +1,134 @@
-[]
+[
+  {
+    "title": "境内机场接送服务",
+    "bank": "兴业",
+    "cardName": "兴业银行美国运通白金信用卡（悠系列）",
+    "category": "Travel",
+    "description": "每计积分长假年度内提供2次境内指定城市机场免费接送服务，涵盖北京、上海、广州、深圳等主流城市。",
+    "validity": "每计积分长假年度",
+    "value": "2次境内免费接送",
+    "usageCondition": "持卡人使用",
+    "terms": "涵盖北京、上海、广州、深圳等主流城市",
+    "id": "4752f9ab-4e53-4ea5-bcbb-bd47e374887e"
+  },
+  {
+    "title": "境外机场接送服务",
+    "bank": "兴业",
+    "cardName": "兴业银行美国运通白金信用卡（悠系列）",
+    "category": "Travel",
+    "description": "每计积分长假年度内提供2次境外指定城市（含港澳台）机场免费接送服务。",
+    "validity": "每计积分长假年度",
+    "value": "2次境外免费接送（单次价值约300-500元）",
+    "usageCondition": "持卡人使用",
+    "terms": "含港澳台地区",
+    "id": "dc43f182-6a9a-4c6e-b153-b568cd29cace"
+  },
+  {
+    "title": "全球机场贵宾厅服务",
+    "bank": "兴业",
+    "cardName": "兴业银行美国运通白金信用卡（悠系列）",
+    "category": "Travel",
+    "description": "每计积分长假年度内提供12次免费境内外机场贵宾服务，覆盖兴业银行自建境内贵宾厅及全球范围内指定服务商（如龙腾）的贵宾厅。",
+    "validity": "每计积分长假年度",
+    "value": "12次免费境内外机场贵宾服务",
+    "usageCondition": "可携带随行人员，扣除相应次数",
+    "terms": "覆盖兴业银行自建及指定服务商（如龙腾）",
+    "id": "701fed54-175c-4824-8e1b-6fbd73a74bc7"
+  },
+  {
+    "title": "积分兑换航空里程",
+    "bank": "兴业",
+    "cardName": "兴业银行美国运通白金信用卡（悠系列）",
+    "category": "Other",
+    "description": "线下消费1元累计1积分，可以10:1的比例兑换航空里程，支持国航、东航、南航、海航等。",
+    "validity": "每自然年",
+    "value": "10:1 兑换比例",
+    "usageCondition": "每自然年最高可兑换2万里程",
+    "terms": "建议在12月31日前完成年度额度兑换",
+    "id": "cb9624a0-8325-4055-b223-992384bba0bf"
+  },
+  {
+    "title": "免费专业体检",
+    "bank": "兴业",
+    "cardName": "兴业银行美国运通白金信用卡（悠系列）",
+    "category": "Health",
+    "description": "每年提供1次免费专业体检服务。",
+    "validity": "每年",
+    "value": "1次免费专业体检",
+    "usageCondition": "可转让给直系亲属使用",
+    "terms": "",
+    "id": "bdef011e-daca-4e0b-b231-d82d950f7253"
+  },
+  {
+    "title": "免费专业洁牙",
+    "bank": "兴业",
+    "cardName": "兴业银行美国运通白金信用卡（悠系列）",
+    "category": "Health",
+    "description": "每年提供1次免费专业洁牙服务。",
+    "validity": "每年",
+    "value": "1次免费专业洁牙",
+    "usageCondition": "持卡人使用",
+    "terms": "",
+    "id": "ea9a39a3-2d1f-4211-80f3-f71c388a1c6c"
+  },
+  {
+    "title": "高额公共交通工具意外险",
+    "bank": "兴业",
+    "cardName": "兴业银行美国运通白金信用卡（悠系列）",
+    "category": "Insurance",
+    "description": "为持卡人提供最高1000万保额的公共交通工具意外险。",
+    "validity": "持卡期间",
+    "value": "最高1000万保额",
+    "usageCondition": "持卡即可享有",
+    "terms": "",
+    "id": "822ed753-8797-43b6-93c2-b390858785d0"
+  },
+  {
+    "title": "航班延误险",
+    "bank": "兴业",
+    "cardName": "兴业银行美国运通白金信用卡（悠系列）",
+    "category": "Insurance",
+    "description": "若起飞延误4小时以上，可获得定额赔付。",
+    "validity": "持卡期间",
+    "value": "定额赔付600元",
+    "usageCondition": "起飞延误4小时以上",
+    "terms": "",
+    "id": "ab88c429-5acc-4c81-af0f-1fec2ef6228c"
+  },
+  {
+    "title": "运通酒店精选权益",
+    "bank": "兴业",
+    "cardName": "兴业银行美国运通白金信用卡（悠系列）",
+    "category": "Travel",
+    "description": "享受美国运通平台提供的指定酒店集团房型升级、免费早餐等权益。",
+    "validity": "运通平台活动期间",
+    "value": "房型升级、免费早餐",
+    "usageCondition": "通过运通平台预订指定酒店",
+    "terms": "遵循美国运通卡组织相关细则",
+    "id": "769eb18c-5d31-45aa-9e54-0136dddd43e9"
+  },
+  {
+    "title": "运通餐饮优惠",
+    "bank": "兴业",
+    "cardName": "兴业银行美国运通白金信用卡（悠系列）",
+    "category": "Dining",
+    "description": "享受美国运通平台提供的运通红包、指定餐厅7折等优惠。",
+    "validity": "运通平台活动期间",
+    "value": "运通红包、餐厅7折",
+    "usageCondition": "指定餐厅消费",
+    "terms": "遵循美国运通卡组织相关细则",
+    "id": "4362c86a-835e-4e7b-baa9-b595671590cc"
+  },
+  {
+    "title": "生日积分翻倍",
+    "bank": "兴业",
+    "cardName": "兴业银行美国运通白金信用卡（悠系列）",
+    "category": "Other",
+    "description": "持卡人生日当天消费可享受积分翻倍活动。",
+    "validity": "生日当天",
+    "value": "积分翻倍",
+    "usageCondition": "生日当天进行消费",
+    "terms": "建议在生日当天进行大额消费以快速累积积分",
+    "id": "fd7aa31e-e523-476e-aa34-98c7f407b036"
+  }
+]
