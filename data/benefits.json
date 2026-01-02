@@ -1249,17 +1249,5 @@
     "usageCondition": "符合卓越理财持卡权益条件。",
     "terms": "需提前预约。",
     "id": "38ebc314-6fe7-4703-a91b-588c72729288"
-  },
-  {
-    "title": "超白境外10%返现与电影票",
-    "bank": "浦发",
-    "cardName": "浦发银行美运超白金信用卡",
-    "category": "Shopping",
-    "description": "境外消费10%返现，每月消费达标送电影票及里程兑换。",
-    "validity": "2025",
-    "value": "null",
-    "usageCondition": "每月多渠道累计消费18888元，单一渠道不超过12000元。",
-    "terms": "电影票需每月达标获取。",
-    "id": "16a11230-48bb-441e-9979-cc2713af1ebd"
   }
 ]
