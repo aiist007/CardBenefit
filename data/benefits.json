@@ -1477,17 +1477,5 @@
     "usageCondition": "当年刷卡满3笔。",
     "terms": null,
     "id": "03836a6a-0618-467a-94af-339822ad556f"
-  },
-  {
-    "title": "金卡里程兑换权益",
-    "bank": "上海银行",
-    "cardName": "上海银行东航联名信用卡金卡",
-    "category": "Travel",
-    "description": "每消费人民币15元即可兑换1点“东方万里行”积分。享消费积分永久有效，免费账单短信提示等服务。",
-    "validity": "长期有效",
-    "value": "15:1兑换比例",
-    "usageCondition": "持卡消费。",
-    "terms": "积分永久有效。",
-    "id": "c4d5da37-96ad-4b7e-bf58-7756f7a8d7c0"
   }
 ]
