@@ -106,5 +106,101 @@
     "usageCondition": "生日当天进行消费",
     "terms": "建议在生日当天进行大额消费以快速累积积分",
     "id": "fd7aa31e-e523-476e-aa34-98c7f407b036"
+  },
+  {
+    "title": "年费积分兑换",
+    "bank": "建行",
+    "cardName": "建行家庭挚爱",
+    "category": "Other",
+    "description": "2024年期间，持卡人可使用15万积分兑换主卡580元年费。",
+    "validity": "2024-01-01至2024-12-31",
+    "value": "580元年费抵扣",
+    "usageCondition": "账户内需有15万积分",
+    "terms": "仅限主卡年费兑换",
+    "id": "df4f4af8-f97d-41c4-b744-04e330d53702"
+  },
+  {
+    "title": "专家门诊预约+全程陪诊",
+    "bank": "建行",
+    "cardName": "建行家庭挚爱",
+    "category": "Health",
+    "description": "包含三甲医院专家号预约，并有专人陪同取号、划价、取药等服务。",
+    "validity": "每年",
+    "value": "6次/年",
+    "usageCondition": "持卡人及其2名直系亲属共同使用",
+    "terms": "需提前通过建行生活APP预约",
+    "id": "074e0a1a-a80f-46b1-af1f-728b9eba5640"
+  },
+  {
+    "title": "境内机场或高铁接送",
+    "bank": "建行",
+    "cardName": "建行家庭挚爱",
+    "category": "Travel",
+    "description": "境内免费单程接送机/站服务，覆盖全国主要城市，车辆通常为舒适型轿车。",
+    "validity": "每年",
+    "value": "2次/年",
+    "usageCondition": "提前预约使用",
+    "terms": "覆盖全国主要城市",
+    "id": "86058f30-5a7f-425b-921e-c1867492cb33"
+  },
+  {
+    "title": "代驾服务",
+    "bank": "建行",
+    "cardName": "建行家庭挚爱",
+    "category": "Vehicle",
+    "description": "50公里以内的免费代驾服务。",
+    "validity": "每年",
+    "value": "6次/年",
+    "usageCondition": "单次行驶距离在50公里以内",
+    "terms": "部分地区权益规则可能微调，建议通过建行生活APP确认",
+    "id": "7e86f893-d033-4a85-a7bd-a69504160c08"
+  },
+  {
+    "title": "智能洗车",
+    "bank": "建行",
+    "cardName": "建行家庭挚爱",
+    "category": "Vehicle",
+    "description": "提供免费洗车服务。",
+    "validity": "每年",
+    "value": "6次/年",
+    "usageCondition": "直接领取使用",
+    "terms": "具体服务网点以建行生活APP展示为准",
+    "id": "322379e1-3c95-44fb-baaf-e251780bd135"
+  },
+  {
+    "title": "道路救援",
+    "bank": "建行",
+    "cardName": "建行家庭挚爱",
+    "category": "Vehicle",
+    "description": "提供50公里免费道路救援，包含拖车、换胎、充电等服务。",
+    "validity": "每年",
+    "value": "不限次数",
+    "usageCondition": "救援距离在50公里以内",
+    "terms": null,
+    "id": "4f49b35b-c286-401c-8171-4494e47d10e2"
+  },
+  {
+    "title": "航空延误险",
+    "bank": "建行",
+    "cardName": "建行家庭挚爱",
+    "category": "Insurance",
+    "description": "每延误4小时赔付200元。",
+    "validity": "每年",
+    "value": "最高2000元/年",
+    "usageCondition": "航班延误达4小时",
+    "terms": "每自然年赔付上限为2000元",
+    "id": "5a80c887-1870-4a14-86a5-5510aa213420"
+  },
+  {
+    "title": "公共交通意外险",
+    "bank": "建行",
+    "cardName": "建行家庭挚爱",
+    "category": "Insurance",
+    "description": "持卡人可获航空意外险保障。",
+    "validity": "每年",
+    "value": "最高500万元保额",
+    "usageCondition": "持卡人本人",
+    "terms": null,
+    "id": "f55c08e0-1b4f-4fa3-8252-172d45dab0a6"
   }
 ]
