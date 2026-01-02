@@ -1057,17 +1057,5 @@
     "usageCondition": "乘坐公共交通工具",
     "terms": "飞机意外保额高达100万元",
     "id": "0880d0a0-310f-4f56-b3ce-8fa0418c5504"
-  },
-  {
-    "title": "积分抵现/兑换",
-    "bank": "平安",
-    "cardName": "平安银行瑞幸联名信用卡",
-    "category": "Travel",
-    "description": "消费累计积分，可兑换话费、电子票券、商品，或在口袋商城直接当钱花。",
-    "validity": "",
-    "value": "10%优惠",
-    "usageCondition": "消费累计积分",
-    "terms": "享受笔笔优惠10%的福利",
-    "id": "5eb84e21-28c8-4909-b270-a464505a8548"
   }
 ]
