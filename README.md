@@ -1,5 +1,7 @@
 # CardBenefit: AI-Powered Credit Card Benefits Manager 💳✨
 
+[简体中文](./README_CN.md) | **English**
+
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-blue?logo=react)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
