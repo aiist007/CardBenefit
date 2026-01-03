@@ -12,7 +12,11 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Benefit, BenefitCategory, CATEGORIES, CATEGORY_LABELS } from "@/types";
+import { Benefit, BenefitCategory, CATEGORIES } from "@/types";
+import { useBenefits } from '@/context/BenefitContext';
+
+import { validateCardName } from '@/utils/cardUtils';
+import { AlertCircle, CheckCircle2 } from 'lucide-react';
 
 interface EditBenefitDialogProps {
     benefit: Benefit | null;
@@ -27,6 +31,7 @@ export const EditBenefitDialog: React.FC<EditBenefitDialogProps> = ({
     onOpenChange,
     onSave,
 }) => {
+    const { allCategories, allCategoryLabels } = useBenefits();
     const [formData, setFormData] = useState<Benefit | null>(null);
     const [customCategory, setCustomCategory] = useState('');
     const [showCustomCategory, setShowCustomCategory] = useState(false);
@@ -71,6 +76,8 @@ export const EditBenefitDialog: React.FC<EditBenefitDialogProps> = ({
         }
     };
 
+    const validation = validateCardName(formData.cardName);
+
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
@@ -92,12 +99,37 @@ export const EditBenefitDialog: React.FC<EditBenefitDialogProps> = ({
                             />
                         </div>
                         <div className="space-y-2">
-                            <Label htmlFor="edit-cardName">Card Name (卡名)</Label>
-                            <Input
-                                id="edit-cardName"
-                                value={formData.cardName}
-                                onChange={(e) => handleChange('cardName', e.target.value)}
-                            />
+                            <div className="flex items-center justify-between">
+                                <Label htmlFor="edit-cardName">Card Name (卡名/官方全称)</Label>
+                                {validation.isValid ? (
+                                    <div className="flex items-center gap-1 text-[10px] text-green-600 font-bold">
+                                        <CheckCircle2 className="h-3 w-3" />
+                                        <span>官方全称</span>
+                                    </div>
+                                ) : (
+                                    <div className="flex items-center gap-1 text-[10px] text-amber-600 font-bold">
+                                        <AlertCircle className="h-3 w-3" />
+                                        <span>非标准名称</span>
+                                    </div>
+                                )}
+                            </div>
+                            <div className="space-y-1">
+                                <Input
+                                    id="edit-cardName"
+                                    value={formData.cardName}
+                                    onChange={(e) => handleChange('cardName', e.target.value)}
+                                    className={!validation.isValid ? "border-amber-200 focus-visible:ring-amber-500" : ""}
+                                />
+                                {!validation.isValid && validation.suggestion && (
+                                    <button
+                                        type="button"
+                                        onClick={() => handleChange('cardName', validation.suggestion!)}
+                                        className="text-[10px] text-blue-600 hover:underline font-medium"
+                                    >
+                                        推荐使用官方名: {validation.suggestion}
+                                    </button>
+                                )}
+                            </div>
                         </div>
                     </div>
 
@@ -121,8 +153,8 @@ export const EditBenefitDialog: React.FC<EditBenefitDialogProps> = ({
                                     <SelectValue placeholder="Select Category" />
                                 </SelectTrigger>
                                 <SelectContent>
-                                    {CATEGORIES.map((cat) => (
-                                        <SelectItem key={cat} value={cat}>{CATEGORY_LABELS[cat] || cat}</SelectItem>
+                                    {allCategories.map((cat) => (
+                                        <SelectItem key={cat} value={cat}>{allCategoryLabels[cat] || cat}</SelectItem>
                                     ))}
                                     <SelectItem value="custom" className="text-blue-600 font-medium">+ 自定义分类</SelectItem>
                                 </SelectContent>

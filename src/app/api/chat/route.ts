@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import OpenAI from 'openai';
+import { jsonToToon } from '@/utils/toon';
 
 export async function POST(req: NextRequest) {
     try {
@@ -12,15 +13,19 @@ export async function POST(req: NextRequest) {
 
         const openai = new OpenAI({
             apiKey: apiKey,
-            baseURL: 'https://llm.ai-nebula.com/v1'
+            baseURL: process.env.OPENAI_BASE_URL || 'https://api.openai.com/v1'
         });
 
-        // Construct the system message with database context
-        const contextString = JSON.stringify(contextBenefits, null, 2);
-        
+        // Construct the system message with database context (TOON Format to save tokens)
+        const contextString = jsonToToon(contextBenefits);
+
         const systemContent = `你是一个专业的信用卡权益助手。你可以基于用户已有的信用卡权益数据库来回答问题。
             
-当前数据库中的权益信息如下：
+**当前数据库信息 (TOON 格式):**
+输入的权益列表采用了 TOON (Token-Oriented Object Notation) 格式以节省 Token。
+- FIELDS 行定义了字段顺序。
+- DATA 下方每一行代表一个对象，以 "|" 为分隔符。
+
 ${contextString}
 
 **对话规则：**
@@ -49,8 +54,8 @@ ${contextString}
             max_tokens: 2000,
         });
 
-        return NextResponse.json({ 
-            content: response.choices[0].message.content 
+        return NextResponse.json({
+            content: response.choices[0].message.content
         });
 
     } catch (error: any) {

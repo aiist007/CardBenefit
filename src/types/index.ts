@@ -23,6 +23,8 @@ export const CATEGORIES: BenefitCategory[] = [
   'Lifestyle',
   'Vehicle',
   'Health',
+  'Birthday',
+  'AnnualFee',
   'Other',
 ];
 
@@ -34,6 +36,8 @@ export const CATEGORY_LABELS: Record<string, string> = {
   Lifestyle: '生活',
   Vehicle: '用车',
   Health: '健康',
+  Birthday: '生日',
+  AnnualFee: '年费',
   Other: '其他',
 };
 

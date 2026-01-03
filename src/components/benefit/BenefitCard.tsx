@@ -52,23 +52,28 @@ export const BenefitCard: React.FC<BenefitCardProps> = ({ benefit, onDelete, onE
                                 {benefit.title}
                             </CardTitle>
                             <CardDescription className={`font-medium flex items-center gap-1 ${benefit.isCompleted ? 'text-slate-300' : 'text-slate-700'}`}>
-                                <span>{benefit.bank}</span>
-                                <span>•</span>
-                                <span
-                                    className={`px-1.5 py-0.5 rounded text-[10px] font-bold transition-colors cursor-pointer ${benefit.isCompleted
-                                        ? 'bg-slate-100 text-slate-400'
-                                        : `${getCardColor(benefit.cardName)} hover:opacity-80`
-                                        }`}
-                                    onClick={(e) => {
-                                        if (!benefit.isCompleted && onCardClick) {
-                                            e.stopPropagation();
-                                            onCardClick(benefit.cardName);
-                                        }
-                                    }}
-                                    title="点击筛选此卡片权益"
-                                >
-                                    {benefit.cardName}
-                                </span>
+                                <span className="text-[11px] opacity-80">{benefit.bank}</span>
+                                <span className="text-[11px] opacity-50">•</span>
+                                <div className="flex flex-col items-start gap-1 ml-1">
+                                    {(benefit.cardName || '').split(/[，,、]/).filter(Boolean).map((name, idx) => (
+                                        <span
+                                            key={idx}
+                                            className={`px-1.5 py-0.5 rounded text-xs font-bold transition-colors cursor-pointer ${benefit.isCompleted
+                                                ? 'bg-slate-100 text-slate-400'
+                                                : `${getCardColor(name.trim())} hover:opacity-80`
+                                                }`}
+                                            onClick={(e) => {
+                                                if (!benefit.isCompleted && onCardClick) {
+                                                    e.stopPropagation();
+                                                    onCardClick(name.trim());
+                                                }
+                                            }}
+                                            title="点击筛选此卡片权益"
+                                        >
+                                            {name.trim()}
+                                        </span>
+                                    ))}
+                                </div>
                             </CardDescription>
                         </div>
                     </div>

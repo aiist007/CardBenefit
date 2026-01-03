@@ -19,7 +19,7 @@ import { normalizeCardName } from '@/utils/cardUtils';
 import { Globe } from 'lucide-react';
 
 export const Dashboard = () => {
-    const { benefits, deleteBenefit, updateBenefit, duplicateBenefit } = useBenefits();
+    const { benefits, deleteBenefit, updateBenefit, duplicateBenefit, addBenefits, allCategories, allCategoryLabels } = useBenefits();
     const [viewMode, setViewMode] = useState<'card' | 'list'>('list');
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedCards, setSelectedCards] = useState<string[]>([]);
@@ -34,6 +34,7 @@ export const Dashboard = () => {
     const [chatHistory, setChatHistory] = useState<{ role: 'user' | 'assistant', content: string }[]>([]);
     const [isChatLoading, setIsChatLoading] = useState(false);
     const [isChatOpen, setIsChatOpen] = useState(false);
+    const [isChatImporting, setIsChatImporting] = useState<number | null>(null);
     const messagesEndRef = useRef<HTMLDivElement>(null);
 
     const scrollToBottom = () => {
@@ -50,11 +51,12 @@ export const Dashboard = () => {
         if (e) e.preventDefault();
         if (!chatQuery.trim() || isChatLoading) return;
 
-        const newUserMessage = { role: 'user' as const, content: chatQuery };
-        const updatedHistory = [...chatHistory, newUserMessage].slice(-16); // Keep last 8 rounds (16 messages)
+        const userMsg = chatQuery;
+        const newUserMessage = { role: 'user' as const, content: userMsg };
+        const updatedHistory = [...chatHistory, newUserMessage].slice(-16); // Keep last 8 rounds
 
-        setChatHistory(prev => [...prev, newUserMessage]);
         setChatQuery('');
+        setChatHistory(prev => [...prev, newUserMessage]);
         setIsChatLoading(true);
         setIsChatOpen(true);
 
@@ -65,32 +67,57 @@ export const Dashboard = () => {
                 body: JSON.stringify({
                     messages: updatedHistory,
                     contextBenefits: benefits
-                })
+                }),
             });
 
+            if (!response.ok) throw new Error('Chat failed');
             const data = await response.json();
-            if (data.content) {
-                setChatHistory(prev => [...prev, { role: 'assistant', content: data.content }]);
-            }
+            setChatHistory(prev => [...prev, { role: 'assistant', content: data.content }]);
         } catch (error) {
-            console.error('Chat error:', error);
+            console.error(error);
+            setChatHistory(prev => [...prev, { role: 'assistant', content: '抱歉，我遇到了点问题，请稍后再试。' }]);
         } finally {
             setIsChatLoading(false);
+        }
+    };
+
+    const handleImportFromChat = async (content: string, index: number) => {
+        setIsChatImporting(index);
+        try {
+            const response = await fetch('/api/parse', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    text: content,
+                    constraints: '请从提供的文本中提取所有的信用卡权益。'
+                }),
+            });
+
+            if (!response.ok) throw new Error('Parsing failed');
+            const data = await response.json();
+
+            if (data.benefits && data.benefits.length > 0) {
+                // Wait, useBenefits() is already called at top of Dashboard.
+                // It should be available via closure.
+                addBenefits(data.benefits);
+                alert(`导入成功！共识别并添加了 ${data.benefits.length} 项权益。`);
+            } else {
+                alert('未能在文本中识别到有效的权益信息。');
+            }
+        } catch (error: any) {
+            console.error('Import failed:', error);
+            alert(`导入失败: ${error.message || '未知错误'}`);
+        } finally {
+            setIsChatImporting(null);
         }
     };
 
     // Get unique card names and bank names for the header filter
     const uniqueCards = Array.from(new Set(benefits.map(b => b.cardName))).filter(Boolean).sort();
     const uniqueBanks = Array.from(new Set(benefits.map(b => b.bank))).filter(Boolean).sort();
-    const uniqueCategories = Array.from(new Set(benefits.map(b => b.category as BenefitCategory))).filter(Boolean).sort((a, b) => {
-        // Sort based on CATEGORIES order if possible
-        const idxA = CATEGORIES.indexOf(a);
-        const idxB = CATEGORIES.indexOf(b);
-        if (idxA !== -1 && idxB !== -1) return idxA - idxB;
-        if (idxA !== -1) return -1;
-        if (idxB !== -1) return 1;
-        return a.localeCompare(b);
-    });
+    const uniqueCategories = allCategories.filter(cat =>
+        benefits.some(b => b.category === cat)
+    );
 
     // Filter benefits based on search and card filter
     const filteredBenefits = benefits.filter(benefit => {
@@ -281,6 +308,23 @@ export const Dashboard = () => {
                                                     <ReactMarkdown remarkPlugins={[remarkGfm]}>
                                                         {msg.content}
                                                     </ReactMarkdown>
+
+                                                    <div className="mt-4 pt-3 border-t border-blue-50 flex justify-end">
+                                                        <Button
+                                                            size="sm"
+                                                            variant="outline"
+                                                            onClick={() => handleImportFromChat(msg.content, idx)}
+                                                            disabled={isChatImporting !== null}
+                                                            className="h-8 text-[11px] font-bold gap-2 text-blue-600 border-blue-100 hover:bg-blue-600 hover:text-white rounded-xl transition-all shadow-sm"
+                                                        >
+                                                            {isChatImporting === idx ? (
+                                                                <Loader2 className="h-3 w-3 animate-spin" />
+                                                            ) : (
+                                                                <Send className="h-3 w-3" />
+                                                            )}
+                                                            一键导入此权益
+                                                        </Button>
+                                                    </div>
                                                 </div>
                                             )}
                                         </div>
@@ -416,7 +460,7 @@ export const Dashboard = () => {
                                                 }`}
                                         >
                                             <Icon className="h-3 w-3 mr-1" />
-                                            {CATEGORY_LABELS[cat] || cat}
+                                            {allCategoryLabels[cat] || cat}
                                         </Button>
                                     );
                                 })}
@@ -456,7 +500,7 @@ export const Dashboard = () => {
                                         <span className="font-semibold">已选分类:</span>
                                         <span className="flex gap-1">
                                             {selectedCategories.map(c => (
-                                                <span key={c} className="bg-blue-100 px-1.5 py-0.5 rounded text-xs font-bold uppercase">{CATEGORY_LABELS[c] || c}</span>
+                                                <span key={c} className="bg-blue-100 px-1.5 py-0.5 rounded text-xs font-bold uppercase">{allCategoryLabels[c] || c}</span>
                                             ))}
                                         </span>
                                     </span>
@@ -514,6 +558,18 @@ export const Dashboard = () => {
                 </div>
             </div>
 
+            {/* Footer Area with Recovery Button */}
+            <div className="mt-12 mb-8 flex justify-center border-t border-slate-100 pt-8">
+                <button
+                    onClick={() => setIsRestoreDialogOpen(true)}
+                    className="flex items-center gap-3 bg-white hover:bg-red-50 text-red-600 border-2 border-red-100 hover:border-red-200 px-8 py-3 rounded-2xl transition-all active:scale-95 group font-bold text-sm shadow-sm hover:shadow-md"
+                    title="系统紧急恢复 (从自动快照中选择版本)"
+                >
+                    <RotateCcw className="h-5 w-5 transition-transform group-hover:rotate-180 duration-700" />
+                    <span>系统紧急恢复</span>
+                </button>
+            </div>
+
             <EditBenefitDialog
                 benefit={editingBenefit}
                 open={isDialogOpen}
@@ -528,16 +584,6 @@ export const Dashboard = () => {
                 open={isRestoreDialogOpen}
                 onOpenChange={setIsRestoreDialogOpen}
             />
-
-            {/* 紧急恢复按钮 (Fixed Bottom Right) */}
-            <button
-                onClick={() => setIsRestoreDialogOpen(true)}
-                className="fixed bottom-6 right-6 z-[60] flex items-center gap-2 bg-[#FF0000] hover:bg-red-700 text-white px-5 py-3.5 rounded-full shadow-[0_10px_40px_-10px_rgba(255,0,0,0.5)] transition-all active:scale-95 group font-bold text-sm border-2 border-white/20"
-                title="系统紧急恢复 (从自动快照中选择版本)"
-            >
-                <RotateCcw className="h-5 w-5 transition-transform group-hover:rotate-180 duration-700" />
-                <span>紧急恢复</span>
-            </button>
         </div>
     );
 };

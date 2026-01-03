@@ -141,20 +141,25 @@ export const BenefitTable: React.FC<BenefitTableProps> = ({ benefits, onDelete, 
                                     className="data-[state=checked]:bg-slate-300 data-[state=checked]:border-slate-300"
                                 />
                             </TableCell>
-                            <TableCell className={`font-medium text-xs ${benefit.isCompleted ? 'text-slate-400 line-through' : 'text-slate-700'}`}>
+                            <TableCell className={`font-medium text-[10px] ${benefit.isCompleted ? 'text-slate-400 line-through' : 'text-slate-700'}`}>
                                 {benefit.bank}
                             </TableCell>
                             <TableCell className={benefit.isCompleted ? 'text-slate-400 line-through' : ''}>
-                                <span
-                                    className={`px-1.5 py-0.5 rounded text-sm font-bold transition-colors cursor-pointer ${benefit.isCompleted
-                                        ? 'bg-slate-100 text-slate-400'
-                                        : `${getCardColor(benefit.cardName)} hover:opacity-80`
-                                        }`}
-                                    onClick={() => !benefit.isCompleted && onCardClick?.(benefit.cardName)}
-                                    title="点击筛选此卡片权益"
-                                >
-                                    {benefit.cardName}
-                                </span>
+                                <div className="flex flex-col items-start gap-1">
+                                    {(benefit.cardName || '').split(/[，,、]/).filter(Boolean).map((name, idx) => (
+                                        <span
+                                            key={idx}
+                                            className={`px-1.5 py-0.5 rounded text-xs font-bold transition-colors cursor-pointer whitespace-nowrap ${benefit.isCompleted
+                                                ? 'bg-slate-100 text-slate-400'
+                                                : `${getCardColor(name.trim())} hover:opacity-80`
+                                                }`}
+                                            onClick={() => !benefit.isCompleted && onCardClick?.(name.trim())}
+                                            title="点击筛选此卡片权益"
+                                        >
+                                            {name.trim()}
+                                        </span>
+                                    ))}
+                                </div>
                             </TableCell>
                             <TableCell className={`max-w-[280px] break-words ${benefit.isCompleted ? 'text-slate-400' : ''}`}>
                                 <div className="space-y-1 py-1">

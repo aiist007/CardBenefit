@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import OpenAI from 'openai';
+import fs from 'fs';
+import path from 'path';
+import { jsonToToon } from '@/utils/toon';
 
 const COMMON_HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
@@ -166,11 +169,14 @@ export async function POST(req: NextRequest) {
         const isCommandMode = !!(benefits && constraints && !url && !screenshot && !text);
 
         if (isCommandMode) {
+            const toonBenefits = jsonToToon(benefits);
+            console.log(`[TOON] Converted benefits list to TOON. Tokens reduced.`);
+
             contentToParse = `[AI COMMAND MODE - MANIPULATING EXISTING DATA]
 User Command: ${constraints}
 
-Current Benefits List:
-${JSON.stringify(benefits, null, 2)}`;
+Current Benefits List (TOON Format):
+${toonBenefits}`;
         } else if (url) {
             const controller = new AbortController();
             const timeoutId = setTimeout(() => controller.abort(), 15000);
@@ -267,41 +273,39 @@ ${JSON.stringify(benefits, null, 2)}`;
         // Initialize OpenAI client with nebula proxy
         const openai = new OpenAI({
             apiKey: apiKey,
-            baseURL: 'https://llm.ai-nebula.com/v1'
+            baseURL: process.env.OPENAI_BASE_URL || 'https://api.openai.com/v1'
         });
 
-        const systemPrompt = `你是一个专业的信用卡权益分析专家。
-你的任务是提取提供的文本或图片中${constraints ? `符合以下要求的` : `**所有的**`}信用卡权益信息。
+        // Load custom parsing rules from Agent Skill library
+        const rulesPath = path.join(process.cwd(), 'src/data/parsing_rules.md');
+        let extractionRules = '';
+        try {
+            if (fs.existsSync(rulesPath)) {
+                extractionRules = fs.readFileSync(rulesPath, 'utf8');
+            } else {
+                console.warn('Parsing rules file not found at:', rulesPath);
+            }
+        } catch (e) {
+            console.error('Failed to load parsing rules:', e);
+        }
 
-**核心规则：**
-1. ${constraints ? `优先遵循提取要求：${constraints}` : `穷举提取：必须抓取到最后。不要遗漏任何一个银行或平台的活动。`}
-2. 结构化输出：必须返回 JSON 格式，包含 "benefits" 数组。
-3. 字段要求（必须严格遵守以下字段名）：
-   - title: 权益名称。
-   - bank: 银行名称（如果是京东、支付宝等平台活动，银行填“京东”或“支付宝”）。
-   - cardName: 信用卡名称（如果未指定，填“全量信用卡”；严禁使用斜杠“/”）。
-   - category: 必须是 [Travel, Dining, Shopping, Insurance, Lifestyle, Vehicle, Health, Other] 之一。
-   - description: 权益详细内容描述。
-   - validity: 有效期/活动时间（如：2024-01-01至2024-03-31，或“每月一次”）。**必须仔细提取，不要遗漏。**
-   - value: 权益价值（如：50元立减金、10倍积分、免费洗车等）。**必须仔细提取。**
-   - usageCondition: 使用条件/达标条件（如：消费满1000元，或直接领取）。
-   - terms: 细则/名额限制（如：每日限1000名，每人限领一次）。
+        // Use a robust fallback if rules failed to load
+        const defaultRules = `你是一个专业的信用卡权益分析专家。
+提取字段包括：title, bank, cardName, category, description, validity, value, usageCondition, terms。
+分类必须限定为：Travel, Dining, Shopping, Insurance, Lifestyle, Vehicle, Health, AnnualFee, Other。
+特别注意：积分相关归类为 Travel，年费相关归类为 AnnualFee。`;
 
-**分类对应表：**
-- Travel: 出行、住宿、接送机、贵宾厅
-- Dining: 餐饮、美食、咖啡、外卖
-- Shopping: 购物、电商、超市、支付优惠
-- Insurance: 保险、延误险、意外险
-- Lifestyle: 生活服务、视听会员、运动、娱乐
-- Vehicle: 加油、洗车、停车、代驾
-- Health: 体检、挂号、洁牙
-- Other: 积分、还款、红包、其它
+        const systemPrompt = `${extractionRules || defaultRules}
 
-**补充说明：**
-- 如果某个字段在原文中完全没有提及，请返回空字符串 "" 或 null，不要编造，但要尽可能从上下文推断（如从活动规则中推断出有效期）。
-- description 应该包含该权益的完整介绍，而 value 应该提炼出最核心的价值点。
+${constraints ? `[提取目标/约束条件]:
+${constraints}` : '你的任务是尽可能准确、全面地提取提供的文本或图片中的所有信用卡权益。'}
 
-注意：内容可能较长，请确保${constraints ? `按要求精准提取` : `提取每一个被提到的活动`}。特别注意提取“有效期”、“价值”和“名额限制”等关键信息。`;
+**技能自我进化规则 (IMPORTANT):**
+1. 如果在提取过程中发现了新的规律（如：特定银行的积分比例、新的价值映射建议、复杂的表格处理技巧），请在返回的 JSON 中增加 "newRulesSuggested" 字段。
+2. 该字段应该是 Markdown 格式的列表项，例如："- 汇丰奖励钱 (RC) 通常等同于港币价值。"。
+3. 如果没有发现新规律，该字段返回 null。
+
+请务必输出包含 "benefits" 数组${!isCommandMode ? '和可选的 "newRulesSuggested" 字符串' : ''}的 JSON 对象。`;
 
         const userPrompt = constraints
             ? `请根据以下材料，按提取要求“${constraints}”来提取信用卡权益。`
@@ -321,6 +325,11 @@ ${JSON.stringify(benefits, null, 2)}`;
    - "deleted": ["ID1", "ID2", ...] (如果要删除)
 2. 保持数据格式（title, bank, cardName, category, description, validity, value, usageCondition, terms）。
 3. 准确执行指令：${constraints}
+
+**TOON 格式说明：**
+输入的权益列表采用了 TOON (Token-Oriented Object Notation) 格式以节省 Token。
+- FIELDS 行定义了字段顺序。
+- DATA 下方每一行代表一个对象，以 "|" 为分隔符。
 
 **输出格式：**
 必须返回一个 JSON 对象，结构如下：
@@ -354,8 +363,9 @@ ${JSON.stringify(benefits, null, 2)}`;
         } else {
             // --- EXTRACTION MODE: PARSING NEW CONTENT ---
             // 1. Process Text Content (Split if too long)
+            let allNewRules: string[] = [];
             if (contentToParse && contentToParse.trim().length > 0) {
-                // Split content into chunks of ~12000 chars (expanded for better context)
+                // Split content into chunks of ~12000 chars
                 const chunkSize = 12000;
                 const chunks = [];
                 for (let i = 0; i < contentToParse.length; i += chunkSize) {
@@ -363,8 +373,10 @@ ${JSON.stringify(benefits, null, 2)}`;
                 }
 
                 for (const chunk of chunks) {
-                    const response = await callAiWithContent(openai, systemPrompt, userPrompt + `\n\nContent Chunk:\n${chunk}`, []);
-                    allExtractedBenefits = [...allExtractedBenefits, ...response];
+                    const result = await callAiWithContent(openai, systemPrompt, userPrompt + `\n\nContent Chunk:\n${chunk}`, []);
+                    const benefits = Array.isArray(result.benefits) ? result.benefits : [];
+                    allExtractedBenefits = [...allExtractedBenefits, ...benefits];
+                    if (result.newRulesSuggested) allNewRules.push(result.newRulesSuggested);
                 }
             }
 
@@ -375,8 +387,22 @@ ${JSON.stringify(benefits, null, 2)}`;
                     const base64 = await imageUrlToBase64(url);
                     if (!base64) continue;
 
-                    const response = await callAiWithContent(openai, systemPrompt, userPrompt, [base64]);
-                    allExtractedBenefits = [...allExtractedBenefits, ...response];
+                    const result = await callAiWithContent(openai, systemPrompt, userPrompt, [base64]);
+                    const benefits = Array.isArray(result.benefits) ? result.benefits : [];
+                    allExtractedBenefits = [...allExtractedBenefits, ...benefits];
+                    if (result.newRulesSuggested) allNewRules.push(result.newRulesSuggested);
+                }
+            }
+
+            // 3. Persist new rules if found
+            if (allNewRules.length > 0) {
+                const uniqueNewRules = Array.from(new Set(allNewRules));
+                const newRulesContent = `\n\n## 动态习得规则 (${new Date().toLocaleDateString()})\n${uniqueNewRules.join('\n')}`;
+                try {
+                    fs.appendFileSync(rulesPath, newRulesContent);
+                    console.log('Saved new rules to skill library.');
+                } catch (e) {
+                    console.error('Failed to save rules:', e);
                 }
             }
 
@@ -400,7 +426,7 @@ ${JSON.stringify(benefits, null, 2)}`;
     }
 }
 
-async function callAiWithContent(openai: OpenAI, systemPrompt: string, userPrompt: string, imageBase64s: string[]): Promise<any[]> {
+async function callAiWithContent(openai: OpenAI, systemPrompt: string, userPrompt: string, imageBase64s: string[]): Promise<any> {
     const messages: any[] = [
         { role: "system", content: systemPrompt },
         {
@@ -435,7 +461,7 @@ async function callAiWithContent(openai: OpenAI, systemPrompt: string, userPromp
         }
     }
 
-    if (!responseText) return [];
+    if (!responseText) return { benefits: [] };
 
     try {
         let jsonToParse = responseText;
@@ -452,27 +478,17 @@ async function callAiWithContent(openai: OpenAI, systemPrompt: string, userPromp
         }
 
         try {
-            const parsed = JSON.parse(candidateJson);
-            // If it's a changeset (has added/updated/deleted), return the whole object
-            if (!Array.isArray(parsed) && (parsed.added || parsed.updated || parsed.deleted)) {
-                return parsed;
-            }
-            // Otherwise follow existing logic
-            return Array.isArray(parsed) ? parsed : (parsed.benefits || []);
+            return JSON.parse(candidateJson);
         } catch (e) {
             const startFromBrace = jsonToParse.indexOf('{');
             if (startFromBrace !== -1) {
                 const repaired = tryRepairJson(jsonToParse.substring(startFromBrace));
-                const parsed = JSON.parse(repaired);
-                if (!Array.isArray(parsed) && (parsed.added || parsed.updated || parsed.deleted)) {
-                    return parsed;
-                }
-                return Array.isArray(parsed) ? parsed : (parsed.benefits || []);
+                return JSON.parse(repaired);
             }
             throw e;
         }
     } catch (error) {
         console.error('Failed to parse AI response part:', error);
-        return [];
+        return { benefits: [] };
     }
 }

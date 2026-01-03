@@ -8,12 +8,13 @@ import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useBenefits } from '@/context/BenefitContext';
-import { CATEGORIES, BenefitCategory, CATEGORY_LABELS } from '@/types';
-import { Loader2, Sparkles, Globe, Image as ImageIcon, X, ChevronDown, ChevronUp, PenTool, Settings2 } from 'lucide-react';
+import { CATEGORIES, BenefitCategory, CATEGORY_LABELS, Benefit } from '@/types';
+import { Loader2, Sparkles, Globe, Image as ImageIcon, X, ChevronDown, ChevronUp, PenTool, Settings2, CheckCircle2, AlertCircle, Edit2, Check, RefreshCw } from 'lucide-react';
+import { validateCardName } from '@/utils/cardUtils';
 
 
 export const AddBenefitForm = () => {
-    const { benefits, addBenefits, replaceBenefits } = useBenefits();
+    const { benefits, addBenefits, replaceBenefits, deleteBenefit, updateBenefit } = useBenefits();
     const [isLoading, setIsLoading] = useState(false);
     const [loadingText, setLoadingText] = useState('处理中');
 
@@ -40,6 +41,8 @@ export const AddBenefitForm = () => {
     const [screenshot, setScreenshot] = useState<string | null>(null);
     const [bulkUrl, setBulkUrl] = useState('');
     const [constraints, setConstraints] = useState('');
+    const [draftBenefits, setDraftBenefits] = useState<Benefit[]>([]);
+    const [isReviewOpen, setIsReviewOpen] = useState(false);
 
 
 
@@ -79,24 +82,19 @@ export const AddBenefitForm = () => {
                 }
 
                 if (data.isCommandMode && data.changeset) {
-                    const { added = [], updated = [], deleted = [] } = data.changeset;
-
-                    // 1. Process deletions
-                    deleted.forEach((id: string) => deleteBenefit(id));
-
-                    // 2. Process updates
-                    updated.forEach((b: any) => updateBenefit(b.id, b));
-
-                    // 3. Process additions
-                    if (added.length > 0) {
-                        addBenefits(added);
+                    const { added = [], updated = [] } = data.changeset;
+                    // For command mode, we show added/updated in drafts for review
+                    const combinedDrafts = [...added, ...updated];
+                    if (combinedDrafts.length > 0) {
+                        setDraftBenefits(combinedDrafts);
+                        setIsReviewOpen(true);
+                    } else {
+                        alert('指令执行成功，无新增或更新项。');
                     }
-
-                    alert(`AI 指令执行成功！\n- 新增: ${added.length} 项\n- 修改: ${updated.length} 项\n- 删除: ${deleted.length} 项`);
                 } else if (data.benefits) {
                     // Extraction mode
-                    addBenefits(data.benefits);
-                    alert(`AI 提取成功！共找到 ${data.benefits.length} 项权益。`);
+                    setDraftBenefits(data.benefits);
+                    setIsReviewOpen(true);
                 }
                 setBulkUrl('');
                 setScreenshot(null);
@@ -186,6 +184,108 @@ export const AddBenefitForm = () => {
                         )}
                     </Button>
                 </form>
+
+                {/* Draft Review Section */}
+                {isReviewOpen && draftBenefits.length > 0 && (
+                    <div className="mt-4 pt-4 border-t border-slate-100 animate-in fade-in slide-in-from-top-2">
+                        <div className="flex items-center justify-between mb-3 px-1">
+                            <div className="flex items-center gap-2">
+                                <h3 className="text-sm font-bold text-slate-800">权益预检 (Review)</h3>
+                                <span className="text-[10px] bg-blue-50 text-blue-600 px-2 py-0.5 rounded-full font-bold">
+                                    {draftBenefits.length} 项待确认
+                                </span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <Button
+                                    variant="ghost"
+                                    size="sm"
+                                    onClick={() => setIsReviewOpen(false)}
+                                    className="h-7 text-[11px] text-slate-400 hover:text-slate-600"
+                                >
+                                    取消
+                                </Button>
+                                <Button
+                                    size="sm"
+                                    onClick={() => {
+                                        addBenefits(draftBenefits);
+                                        setDraftBenefits([]);
+                                        setIsReviewOpen(false);
+                                        alert('已成功保存所有权益！');
+                                    }}
+                                    className="h-7 text-[11px] bg-green-600 hover:bg-green-700 font-bold"
+                                >
+                                    确认并保存
+                                </Button>
+                            </div>
+                        </div>
+
+                        <div className="grid gap-2 max-h-[300px] overflow-y-auto pr-1">
+                            {draftBenefits.map((draft, idx) => {
+                                const validation = validateCardName(draft.cardName);
+                                return (
+                                    <div key={idx} className="group p-2 rounded-lg border border-slate-100 bg-white hover:border-blue-200 transition-all">
+                                        <div className="flex items-start justify-between gap-3">
+                                            <div className="flex-1 min-w-0">
+                                                <div className="flex items-center flex-wrap gap-x-2 gap-y-1 mb-1">
+                                                    <span className="text-[10px] font-bold text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded">
+                                                        {draft.bank}
+                                                    </span>
+                                                    <div className="flex items-center gap-1.5 group">
+                                                        <Input
+                                                            value={draft.cardName}
+                                                            onChange={(e) => {
+                                                                const updated = [...draftBenefits];
+                                                                updated[idx] = { ...updated[idx], cardName: e.target.value };
+                                                                setDraftBenefits(updated);
+                                                            }}
+                                                            className="h-6 w-auto min-w-[120px] text-[11px] font-bold px-1 py-0 border-transparent bg-transparent hover:border-slate-200 focus:border-blue-400 focus:bg-white transition-all"
+                                                        />
+                                                        {validation.isValid ? (
+                                                            <CheckCircle2 className="h-3 w-3 text-green-500 shrink-0" title="官方全称已匹配" />
+                                                        ) : (
+                                                            <div className="flex items-center gap-1">
+                                                                <AlertCircle className="h-3 w-3 text-amber-500 shrink-0" title="非标准名称" />
+                                                                {validation.suggestion && (
+                                                                    <button
+                                                                        type="button"
+                                                                        onClick={() => {
+                                                                            const updated = [...draftBenefits];
+                                                                            updated[idx] = { ...updated[idx], cardName: validation.suggestion! };
+                                                                            setDraftBenefits(updated);
+                                                                        }}
+                                                                        className="text-[9px] text-blue-500 hover:underline font-medium"
+                                                                    >
+                                                                        修正为: {validation.suggestion}
+                                                                    </button>
+                                                                )}
+                                                            </div>
+                                                        )}
+                                                    </div>
+                                                </div>
+                                                <div className="text-[11px] font-bold text-slate-800 truncate">
+                                                    {draft.title}
+                                                </div>
+                                                <div className="text-[10px] text-slate-500 line-clamp-1 mt-0.5 opacity-80 group-hover:opacity-100">
+                                                    {draft.description}
+                                                </div>
+                                            </div>
+                                            <button
+                                                type="button"
+                                                onClick={() => {
+                                                    const updated = draftBenefits.filter((_, i) => i !== idx);
+                                                    setDraftBenefits(updated);
+                                                }}
+                                                className="mt-1 p-1 text-slate-300 hover:text-red-500 transition-colors"
+                                            >
+                                                <X className="h-3 w-3" />
+                                            </button>
+                                        </div>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+                )}
             </CardContent>
         </Card>
     );

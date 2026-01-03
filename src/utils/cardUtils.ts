@@ -49,6 +49,16 @@ const CARD_MAP: Record<string, string> = {
     // HXB (华夏)
     '华夏尊尚白': '华夏尊尚白',
     '尊尚白': '华夏尊尚白',
+    '华夏银行运通Safari卡': '华夏银行美国运通 Safari 信用卡',
+    '华夏运通Safari': '华夏银行美国运通 Safari 信用卡',
+    '华夏Safari': '华夏银行美国运通 Safari 信用卡',
+    'Safari卡': '华夏银行美国运通 Safari 信用卡',
+    'UP白': '华夏银行UP信用卡白金卡',
+    'UP白金卡': '华夏银行UP信用卡白金卡',
+    '华夏UP信用卡白金卡': '华夏银行UP信用卡白金卡',
+    '上海银行东航白金卡': '上海银行东方航空联名白金信用卡',
+    '上海银行东方航空联名白金卡': '上海银行东方航空联名白金信用卡',
+    '东航白金卡': '上海银行东方航空联名白金信用卡',
 
     // CGB (广发)
     '广发真情': '广发真情卡',
@@ -62,36 +72,72 @@ const CARD_MAP: Record<string, string> = {
 };
 
 /**
- * Normalizes a card name to its concise version.
- * 中文说明：将卡片名称规范化为简洁的版本。
+ * Normalizes a card name to its standard version.
+ * 中文说明：规范化信用卡名称，去除首尾特殊字符。
  */
 export const normalizeCardName = (name: string): string => {
     if (!name || typeof name !== 'string') return '通用';
 
     // Remove leading/trailing slashes, dots, and whitespace
     let trimmed = name.trim()
-        .replace(/^[./\\]+|[./\\]+$/g, '')
+        .replace(/^[./\\，、, ]+|[./\\，、, ]+$/g, '')
         .trim();
 
     if (!trimmed || trimmed === 'None' || trimmed === '通用卡片' || trimmed === '通用') return '通用';
 
-    // 1. Exact match in map (including specific bank abbreviations like "工行")
+    // We use Official Full Names as requested by the user.
+    // First, check for exact match in the mapping table.
     if (CARD_MAP[trimmed]) return CARD_MAP[trimmed];
 
-    // 2. Fuzzy match aliases (e.g. "精粹白" -> "农行精粹白")
-    for (const [alias, canonical] of Object.entries(CARD_MAP)) {
-        if (trimmed.includes(alias)) {
-            if (alias.length >= 2) return canonical;
+    // Try a more aggressive match: check if any key in CARD_MAP is contained within the trimmed name
+    // or vice versa, focusing on substantial matches to avoid false positives.
+    for (const [variant, official] of Object.entries(CARD_MAP)) {
+        if (trimmed === variant) return official;
+        if (variant.length >= 3 && (trimmed.includes(variant) || variant.includes(trimmed))) {
+            return official;
         }
     }
 
-    // 3. Handle general bank benefits if they missed the suffix
-    // If it's a common bank abbr but accidentally got "卡" stripped or was never there
-    // e.g. "建行" -> "建行信用卡"
-    const commonBanks = ['工行', '建行', '农行', '中行', '交行', '邮储', '招行', '中信', '光大', '华夏', '民生', '广发', '平安', '兴业', '浦发', '浙商', '恒丰', '渤海'];
-    if (commonBanks.includes(trimmed)) {
-        return `${trimmed}信用卡`;
+    return trimmed;
+};
+
+/**
+ * Checks if a name is a known official card name.
+ * 中文说明：检查名称是否为已知的官方卡片名称。
+ */
+export const isOfficialCardName = (name: string): boolean => {
+    if (!name) return false;
+    const trimmed = name.trim();
+
+    // Check if it's a value in CARD_MAP (official names)
+    if (Object.values(CARD_MAP).includes(trimmed)) return true;
+
+    // Check if it's a key in CARD_MAP that maps to itself or another name
+    // (though mapping-to-self is the standard for official names)
+    return !!CARD_MAP[trimmed] && CARD_MAP[trimmed] === trimmed;
+};
+
+/**
+ * Validates a card name and provides suggestions if possible.
+ * 中文说明：验证卡片名称，并尽量提供建议。
+ */
+export const validateCardName = (name: string): { isValid: boolean; suggestion?: string } => {
+    const trimmed = name.trim();
+    if (isOfficialCardName(trimmed)) return { isValid: true };
+
+    const normalized = normalizeCardName(trimmed);
+    if (isOfficialCardName(normalized)) {
+        return { isValid: false, suggestion: normalized };
     }
 
-    return trimmed;
+    return { isValid: false };
+};
+
+/**
+ * Gets a list of all official card names.
+ * 中文说明：获取所有官方卡片名称的列表。
+ */
+export const getOfficialCardNames = (): string[] => {
+    const names = new Set(Object.values(CARD_MAP));
+    return Array.from(names).filter(n => n !== '通用');
 };
