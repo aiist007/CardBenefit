@@ -108,9 +108,9 @@ export const BenefitProvider = ({ children }: { children: React.ReactNode }) => 
             return { ...benefit, category: 'Travel' };
         }
 
-        // 3. Birthday mapping
-        if (content.includes('生日')) {
-            return { ...benefit, category: 'Birthday' };
+        // 4. Force fix specific card name issues (e.g., Huaxia UP Platinum Card)
+        if (benefit.bank === '华夏' && benefit.cardName === '白金卡') {
+            return { ...benefit, cardName: '华夏银行UP信用卡白金卡' };
         }
 
         return benefit;
